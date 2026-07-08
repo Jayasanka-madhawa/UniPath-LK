@@ -1,0 +1,14 @@
+[
+  {
+    "question": "What is the maximum number of A/L attempts allowed?",
+    "must_contain": ["three", "occasion"]
+  },
+  {
+    "question": "Can I apply if I registered at SLIATE?",
+    "must_contain": ["SLIATE", "60"]
+  },
+  {
+    "question": "How do I change my Uni-Code preference order?",
+    "must_contain": ["Uni-Code", "week"]
+  }
+]

@@ -1,0 +1,11 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.env
+
+# Local data / indexes (rebuild with scripts)
+data/chroma/
+
+# OS
+.DS_Store

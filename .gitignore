@@ -6,6 +6,7 @@ __pycache__/
 
 # Local data / indexes (rebuild with scripts)
 data/chroma/
+data/structured/unipath.db
 
 # OS
 .DS_Store

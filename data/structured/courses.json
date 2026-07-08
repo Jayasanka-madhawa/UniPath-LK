@@ -1,0 +1,1351 @@
+[
+  {
+    "section": "2.2.1.1",
+    "course_name": "Arts",
+    "course_code_base": "019",
+    "proposed_intake": "6983",
+    "eligibility": null,
+    "degree_programme": null,
+    "available_universities": [],
+    "duration": null,
+    "medium": "of Instruction"
+  },
+  {
+    "section": "2.2.2.1",
+    "course_name": "Management",
+    "course_code_base": "016",
+    "proposed_intake": "5424",
+    "eligibility": null,
+    "degree_programme": null,
+    "available_universities": [],
+    "duration": null,
+    "medium": null
+  },
+  {
+    "section": "2.2.2.2",
+    "course_name": "Management and Public Policy",
+    "course_code_base": "028",
+    "proposed_intake": "100",
+    "eligibility": null,
+    "degree_programme": null,
+    "available_universities": [],
+    "duration": null,
+    "medium": null
+  },
+  {
+    "section": "2.2.2.3",
+    "course_name": "Real Estate Management and Valuation",
+    "course_code_base": "017",
+    "proposed_intake": "70",
+    "eligibility": null,
+    "degree_programme": null,
+    "available_universities": [],
+    "duration": null,
+    "medium": null
+  },
+  {
+    "section": "2.2.2.4",
+    "course_name": "Commerce",
+    "course_code_base": "018",
+    "proposed_intake": "884",
+    "eligibility": null,
+    "degree_programme": null,
+    "available_universities": [],
+    "duration": null,
+    "medium": null
+  },
+  {
+    "section": "2.2.2.5",
+    "course_name": "Management Studies (TV)",
+    "course_code_base": "022",
+    "proposed_intake": "458",
+    "eligibility": null,
+    "degree_programme": null,
+    "available_universities": [],
+    "duration": null,
+    "medium": null
+  },
+  {
+    "section": "2.2.2.6",
+    "course_name": "Business Information Systems (Honours) (BIS)",
+    "course_code_base": "077",
+    "proposed_intake": "80",
+    "eligibility": "At least ‘S’ grades for following three subjects at the G.C.E. (Advanced Level) Examination;  Business Studies  Economics  Accounting or At least ‘S’ grades for two subjects given above and the third subject from the subjects given below;  Information & Communication Technology  Combined Mathematics  Logic & Scientific Method  Business Statistics  Physics ACADEMIC YEAR 2024/2025 - 47 - UNIVERSITY GRANTS COMMISSION ",
+    "degree_programme": "Bachelor of Science Honours in Business Information Systems",
+    "available_universities": [
+      "University of Sri Jayewardenepura"
+    ],
+    "duration": "04 years",
+    "medium": null
+  },
+  {
+    "section": "2.2.2.7",
+    "course_name": "Accounting Information Systems",
+    "course_code_base": "127",
+    "proposed_intake": "50",
+    "eligibility": "At least a ‘S’ grade in Accounting and at least ‘S’ grades for two subjects from the following subjects combinations at the G.C.E. (Advanced Level) Examination;  Economics or Business Studies and  Business Statistics or Information & Communication Technology ",
+    "degree_programme": "Bachelor of Business Management Honours in Accounting Information Systems [BBMHons (Accounting Information Systems)]",
+    "available_universities": [
+      "University of Kelaniya",
+      " Duration : 04 years",
+      " Medium : English"
+    ],
+    "duration": "04 years",
+    "medium": "English"
+  },
+  {
+    "section": "2.2.2.8",
+    "course_name": "Banking and Insurance",
+    "course_code_base": "133",
+    "proposed_intake": "50",
+    "eligibility": "At least ‘S’ grades in Accounting and Economics and the third subject from any other subjects within the Commerce Stream at the G.C.E. (Advanced Level) Examination; ",
+    "degree_programme": "Bachelor of Business Management Honours in Banking and Insurance [BBMHons (Banking and Insurance)]",
+    "available_universities": [
+      "University of Vavuniya, Sri Lanka"
+    ],
+    "duration": "04 years",
+    "medium": "English"
+  },
+  {
+    "section": "2.2.2.9",
+    "course_name": "Service Management                          (New",
+    "course_code_base": "140",
+    "proposed_intake": "50",
+    "eligibility": "At least ‘S’ grades for three subjects in the Commerce Stream at the G.C.E. (Advanced Level) Examination; ",
+    "degree_programme": "Bachelor of Science Honours in Service Management [BScHons (Serv Mgt)]",
+    "available_universities": [
+      "Gampaha Wickramarachchi University of Indigenous",
+      "Medicine, Sri Lanka"
+    ],
+    "duration": "04 years",
+    "medium": "English"
+  },
+  {
+    "section": "2.2.3.7",
+    "course_name": "Food Science & Technology",
+    "course_code_base": "035",
+    "proposed_intake": "220",
+    "eligibility": "At least three ‘S’ grades in Chemistry, Physics and Biology at the G.C.E. (Advanced Level) Examination. ",
+    "degree_programme": "Bachelor of Science Honours in Food Science & Technology",
+    "available_universities": [
+      "University of Peradeniya",
+      "Sabaragamuwa University of Sri Lanka",
+      "University of Sri Jayewardenepura"
+    ],
+    "duration": "04 years",
+    "medium": null
+  },
+  {
+    "section": "2.2.3.8",
+    "course_name": "Ayurveda Medicine and Surgery",
+    "course_code_base": "032",
+    "proposed_intake": "383",
+    "eligibility": "At least three ‘S’ grades in Chemistry, Physics and Biology at the G.C.E. (Advanced Level) Examination. ",
+    "degree_programme": "Bachelor of Ayurveda Medicine and Surgery (B.A.M.S)",
+    "available_universities": [
+      "University of Colombo",
+      "Gampaha Wickramarachchi University of Indigenous",
+      "Medicine, Sri Lanka"
+    ],
+    "duration": "05 years",
+    "medium": "English"
+  },
+  {
+    "section": "2.2.3.9",
+    "course_name": "Unani Medicine and Surgery",
+    "course_code_base": "033",
+    "proposed_intake": "89",
+    "eligibility": "At least three ‘S’ grades in Chemistry, Physics and Biology at the G.C.E. (Advanced Level) Examination. ",
+    "degree_programme": "Bachelor of Unani Medicine and Surgery (B.U.M.S.)",
+    "available_universities": [
+      "University of Colombo"
+    ],
+    "duration": "05 years",
+    "medium": "English"
+  },
+  {
+    "section": "2.2.3.10",
+    "course_name": "Siddha Medicine and Surgery",
+    "course_code_base": "036",
+    "proposed_intake": "247",
+    "eligibility": "At least three ‘S’ grades in Chemistry, Physics and Biology at the G.C.E. (Advanced Level) Examination. ",
+    "degree_programme": "Bachelor of Siddha Medicine and Surgery (B.S.M.S.)",
+    "available_universities": [
+      "University of Jaffna",
+      "Trincomalee Campus, Eastern University, Sri Lanka"
+    ],
+    "duration": "06 years",
+    "medium": "University of Jaffna"
+  },
+  {
+    "section": "2.2.3.11",
+    "course_name": "Biological Science",
+    "course_code_base": "006",
+    "proposed_intake": "1683",
+    "eligibility": "At least ‘S’ grades in Biology, Chemistry and the third subject from the following subjects at the G.C.E. (Advanced Level) Examination;  Agricultural Science  Higher Mathematics  Mathematics  Combined Mathematics  Physics ",
+    "degree_programme": "Bachelor of Science in Biological Science",
+    "available_universities": [
+      "University of Colombo",
+      "University of Peradeniya",
+      "University of Sri Jayewardenepura",
+      "University of Kelaniya",
+      "University of Jaffna",
+      "University of Ruhuna",
+      "Eastern University, Sri Lanka",
+      "South Eastern University of Sri Lanka"
+    ],
+    "duration": null,
+    "medium": null
+  },
+  {
+    "section": "2.2.3.12",
+    "course_name": "Applied Sciences (Biological Science)",
+    "course_code_base": "007",
+    "proposed_intake": "425",
+    "eligibility": "At least ‘S’ grades in Biology, Chemistry and the third subject from the following subjects at the G.C.E. (Advanced Level) Examination;  Agricultural Science  Higher Mathematics  Mathematics  Combined Mathematics  Physics Names of the Universities and the degree programmes offered by them are given below: Sabaragamuwa University of Sri Lanka  Bachelor of Science (Applied Sciences) in Environmental Sciences and Natural Resources Management Duration: 03 years  Bachelor of Science (Applied Sciences) Honours in Environmental Sciences and Natural Resources Management Duration: 04 years Rajarata University of Sri Lanka  Bachelor of Science in Applied Sciences Duration: 03 years  Bachelor of Science Honours in Applied Sciences Duration: 04 years  Bachelor of Science (Joint Major) in Applied Sciences Duration: 04 years  Bachelor of Science Honours in Applied Biology Duration: 04 years  Bachelor of Science Honours in Chemistry Duration: 04 years University of Vavuniya, Sri Lanka  Bachelor of Science in Environmental Science Duration: 03 years  Bachelor of Science Honours in Environmental Science Duration: 04 years ACADEMIC YEAR 2024/2025 - 56 - UNIVERSITY GRANTS COMMISSION",
+    "degree_programme": null,
+    "available_universities": [],
+    "duration": "03 years",
+    "medium": null
+  },
+  {
+    "section": "2.2.3.13",
+    "course_name": "Health Promotion",
+    "course_code_base": "050",
+    "proposed_intake": "103",
+    "eligibility": "At least ‘S’ grades in Biology, Chemistry and the third subject from the following subjects at the G.C.E. (Advanced Level) Examination;  Agricultural Science  Higher Mathematics  Mathematics  Combined Mathematics  Physics ",
+    "degree_programme": "s : Bachelor of Science in Health Promotion [BSc (Hlth Prom)] Duration : 03 years Bachelor of Science Honours in Health Promotion [BScHons (Hlth Prom)] Duration : 04 years ",
+    "available_universities": [
+      "Rajarata University of Sri Lanka"
+    ],
+    "duration": "03 years",
+    "medium": null
+  },
+  {
+    "section": "2.2.3.14",
+    "course_name": "Nursing",
+    "course_code_base": "037",
+    "proposed_intake": "573",
+    "eligibility": "At least three ‘S’ grades in Chemistry, Physics and Biology at the G.C.E. (Advanced Level) Examination. In addition to that, at least an Ordinary Pass (S) in English at the G.C.E. (Ordinary Level) Examination. The following universities offer a 120 credit curriculum leading to a Bachelor of Science in Nursing;  University of Peradeniya  University of Sri Jayewardenepura  University of Ruhuna  University of Jaffna  Eastern University, Sri Lanka  University of Colombo Guidance and Information  Candidates are required to submit the duly certified copy of the original G.C.E. (Ordinary Level) Examination certificate confirming the above grades along with the application for university admission. Failure to submit it will result in rejection of the application for the course of study in Nursing.  In addition, the candidates should be a minimum of 4’10” in height and should not have any kind of deformity. Candidates who fail to satisfy these physical conditions will not be considered for the course of study in Nursing. ACADEMIC YEAR 2024/2025 - 57 - UNIVERSITY GRANTS COMMISSION  These two requirements are given as mandatory requirements in the Nursing Minute of the Nursing Council.  If you get selected for the course of study in Nursing, based on false/ inaccurate information provided in the application, your admission for the course of study in Nursing will be cancelled.",
+    "degree_programme": null,
+    "available_universities": [],
+    "duration": null,
+    "medium": null
+  },
+  {
+    "section": "2.2.3.15",
+    "course_name": "Pharmacy",
+    "course_code_base": "051",
+    "proposed_intake": "239",
+    "eligibility": "At least a ‘C’ grade in Chemistry and ‘S’ grades in Physics and Biology at the G.C.E. (Advanced Level) Examination. In addition to that, at least an Ordinary Pass (S) in English at the G.C.E. (Ordinary Level) Examination. The following universities offer a 120 credit curriculum leading to a Bachelor of Science in Pharmacy.  University of Peradeniya  University of Sri Jayewardenepura  University of Jaffna  University of Ruhuna Candidates are required to submit the duly certified copy of the original G.C.E. (Ordinary Level) Examination certificate confirming the above grades along with the application for university admission. Failure to submit it will result in rejection of the application for the course of study in Pharmacy. 2.2.3.16 Medical Laboratory Sciences (Course Code - 052) (Proposed Intake – 226) Minimum eligibility requirements for admission : At least three ‘S’ grades in Chemistry, Physics and Biology at the G.C.E. (Advanced Level) Examination. In addition to that, at least an Ordinary Pass (S) in English at the G.C.E. (Ordinary Level) Examination. The following universities offer a 120 credit curriculum leading to a Bachelor of Science in Medical Laboratory Sciences;  University of Peradeniya  University of Sri Jayewardenepura  University of Ruhuna  University of Jaffna Candidates are required to submit the duly certified copy of the original G.C.E. (Ordinary Level) Examination certificate confirming the above grade along with the application for university admission. Failure to submit it will result in rejection of the application for the course of study in Medical Laboratory Sciences. ACADEMIC YEAR 2024/2025 - 58 - UNIVERSITY GRANTS COMMISSION",
+    "degree_programme": null,
+    "available_universities": [],
+    "duration": null,
+    "medium": null
+  },
+  {
+    "section": "2.2.3.17",
+    "course_name": "Radiography",
+    "course_code_base": "053",
+    "proposed_intake": "68",
+    "eligibility": "At least three ‘S’ grades in Chemistry, Physics and Biology at the G.C.E. (Advanced Level) Examination. In addition to that, at least an Ordinary Pass (S) in English at the G.C.E. (Ordinary Level) Examination. The University of Peradeniya offers a 120 credit curriculum leading to a Bachelor of Science in Radiography. Candidates are required to submit the duly certified copy of the original G.C.E. (Ordinary Level) Examination certificate confirming the above grade along with the application for university admission. Failure to submit it will result in rejection of the application for the course of study in Radiography.",
+    "degree_programme": null,
+    "available_universities": [],
+    "duration": null,
+    "medium": null
+  },
+  {
+    "section": "2.2.3.18",
+    "course_name": "Physiotherapy",
+    "course_code_base": "054",
+    "proposed_intake": "111",
+    "eligibility": "At least ‘S’ grades in Physics, Chemistry and the third subject from the following subjects at the G.C.E. (Advanced Level) Examination;  Biology  Mathematics  Higher Mathematics  Combined Mathematics In addition to that, at least an Ordinary Pass (S) in English at the G.C.E. (Ordinary Level) Examination. The following universities offer a 120 credit curriculum leading to a Bachelor of Science in Physiotherapy;  University of Colombo  University of Peradeniya Candidates are required to submit the duly certified copy of the original G.C.E. (Ordinary Level) Examination certificate confirming the above grade along with the application for university admission. Failure to submit it will result in rejection of the application for the course of study in Physiotherapy.",
+    "degree_programme": null,
+    "available_universities": [],
+    "duration": null,
+    "medium": null
+  },
+  {
+    "section": "2.2.3.19",
+    "course_name": "Biochemistry & Molecular Biology",
+    "course_code_base": "058",
+    "proposed_intake": "80",
+    "eligibility": "At least three ‘S’ grades in Chemistry, Physics and Biology at the G.C.E. (Advanced Level) Examination. ",
+    "degree_programme": "s : Bachelor of Science Duration : 03 years",
+    "available_universities": [
+      "University of Colombo"
+    ],
+    "duration": "03 years",
+    "medium": null
+  },
+  {
+    "section": "2.2.3.20",
+    "course_name": "Fisheries & Marine Sciences",
+    "course_code_base": "062",
+    "proposed_intake": "150",
+    "eligibility": "At least three ‘S’ grades in Chemistry, Physics and Biology at the G.C.E. (Advanced Level) Examination. ",
+    "degree_programme": "Bachelor of Science Honours in Fisheries and Marine Sciences",
+    "available_universities": [
+      "University of Ruhuna"
+    ],
+    "duration": "04 years",
+    "medium": "English"
+  },
+  {
+    "section": "2.2.3.21",
+    "course_name": "Environmental Conservation & Management",
+    "course_code_base": "055",
+    "proposed_intake": "109",
+    "eligibility": "At least ‘S’ grades in Biology, Chemistry and the third subject from the following subjects at the G.C.E. (Advanced Level) Examination;  Physics  Combined Mathematics  Mathematics  Agricultural Science ",
+    "degree_programme": "s : Bachelor of Science in Environmental Conservation and Management Duration : 03 years",
+    "available_universities": [
+      "University of Kelaniya"
+    ],
+    "duration": "03 years",
+    "medium": null
+  },
+  {
+    "section": "2.2.3.22",
+    "course_name": "Animal Science & Fisheries",
+    "course_code_base": "086",
+    "proposed_intake": "74",
+    "eligibility": "At least three ‘S’ grades for one of the following combinations of subjects at the G.C.E. (Advanced Level) Examination; (i) Chemistry, Biology and Physics (ii) Chemistry, Biology and Agricultural Science ",
+    "degree_programme": "Bachelor of Science in Animal Science & Fisheries",
+    "available_universities": [
+      "University of Peradeniya"
+    ],
+    "duration": "04 years",
+    "medium": null
+  },
+  {
+    "section": "2.2.3.23",
+    "course_name": "Food Production & Technology Management",
+    "course_code_base": "087",
+    "proposed_intake": "140",
+    "eligibility": "At least three ‘S’ grades for one of the following combinations of subjects at the G.C.E. (Advanced Level) Examination; (i) Chemistry; Physics; and Biology (ii) Chemistry; Physics or Mathematics; Biology or Agricultural Science (iii) Chemistry; Biology; Agricultural Science or Mathematics ",
+    "degree_programme": "Bachelor of Science Honours in Food Production & Technology Management [BScHons (Food Prod & Tech Mgmt)]",
+    "available_universities": [
+      "Wayamba University of Sri Lanka"
+    ],
+    "duration": "04 years",
+    "medium": null
+  },
+  {
+    "section": "2.2.3.24",
+    "course_name": "Agricultural Resource Management and Technology",
+    "course_code_base": "093",
+    "proposed_intake": "181",
+    "eligibility": "At least three ‘S’ grades for one of the following combinations of subjects at the G.C.E. (Advanced Level) Examination; (i) Chemistry; Physics; and Biology (ii) Chemistry; Physics or Mathematics; Biology or Agricultural Science (iii) Chemistry; Biology; Agricultural Science or Mathematics ACADEMIC YEAR 2024/2025 - 61 - UNIVERSITY GRANTS COMMISSION ",
+    "degree_programme": "Bachelor of Science in Agricultural Resource Management & Technology",
+    "available_universities": [
+      "University of Ruhuna"
+    ],
+    "duration": "04 years",
+    "medium": null
+  },
+  {
+    "section": "2.2.3.25",
+    "course_name": "Agribusiness Management",
+    "course_code_base": "094",
+    "proposed_intake": "78",
+    "eligibility": "At least ‘S’ grades in Biology, Chemistry and the third subject from the following subjects at the G.C.E. (Advanced Level) Examination;  Physics  Agricultural Science  Food Technology/ Bio - Resource Technology/ Agro Technology ",
+    "degree_programme": "Bachelor of Science in Agribusiness Management",
+    "available_universities": [
+      "University of Ruhuna"
+    ],
+    "duration": "04 years",
+    "medium": null
+  },
+  {
+    "section": "2.2.3.26",
+    "course_name": "Green Technology",
+    "course_code_base": "095",
+    "proposed_intake": "72",
+    "eligibility": "At least ‘S’ grades in Biology, Chemistry and the third subject from the following subjects at the G.C.E. (Advanced Level) Examination;  Physics  Agricultural Science  Food Technology/Bio - Resource Technology/Agro Technology In addition to that, at least a Credit Pass (C) in English at the G.C.E. (Ordinary Level) Examination. ",
+    "degree_programme": "Bachelor of Science in Green Technology",
+    "available_universities": [
+      "University of Ruhuna"
+    ],
+    "duration": "04 years",
+    "medium": null
+  },
+  {
+    "section": "2.2.3.27",
+    "course_name": "Animal Production and Food Technology",
+    "course_code_base": "067",
+    "proposed_intake": "108",
+    "eligibility": "At least ‘S’ grades in Biology, Chemistry and the third subject from the following subjects at the G.C.E. (Advanced Level) Examination;  Agricultural Science  Higher Mathematics  Mathematics  Combined Mathematics  Physics ",
+    "degree_programme": "Bachelor of Science Honours in Animal Production and Food Technology [BScHons (Animal Production and Food Technology)]",
+    "available_universities": [
+      "Uva Wellassa University of Sri Lanka"
+    ],
+    "duration": "04 years",
+    "medium": "English"
+  },
+  {
+    "section": "2.2.3.28",
+    "course_name": "Export Agriculture",
+    "course_code_base": "073",
+    "proposed_intake": "105",
+    "eligibility": "At least ‘S’ grades in Biology, Chemistry and the third subject from the following subjects at the G.C.E. (Advanced Level) Examination;  Agricultural Science  Higher Mathematics  Mathematics  Combined Mathematics  Physics ",
+    "degree_programme": "Bachelor of Science Honours in Export Agriculture [BScHons (Export Agri)]",
+    "available_universities": [
+      "Uva Wellassa University of Sri Lanka"
+    ],
+    "duration": "04 years",
+    "medium": "English"
+  },
+  {
+    "section": "2.2.3.29",
+    "course_name": "Aquatic Resources Technology",
+    "course_code_base": "088",
+    "proposed_intake": "114",
+    "eligibility": "At least ‘S’ grades in Biology, Chemistry and the third subject from the following subjects at the G.C.E. (Advanced Level) Examination;  Agricultural Science  Higher Mathematics  Mathematics  Combined Mathematics  Physics ",
+    "degree_programme": "Bachelor of Science Honours in Aquatic Resources Technology [BScHons (Aquatic Resources Tech)]",
+    "available_universities": [
+      "Uva Wellassa University of Sri Lanka"
+    ],
+    "duration": "04 years",
+    "medium": "English"
+  },
+  {
+    "section": "2.2.3.30",
+    "course_name": "Occupational Therapy",
+    "course_code_base": "115",
+    "proposed_intake": "50",
+    "eligibility": "At least three ‘S’ grades in Physics, Biology and Chemistry at the G.C.E. (Advanced Level) Examination. ",
+    "degree_programme": "Bachelor of Science Honours in Occupational Therapy [BScHons (OT)]",
+    "available_universities": [
+      "University of Kelaniya"
+    ],
+    "duration": "04 years",
+    "medium": "English"
+  },
+  {
+    "section": "2.2.3.31",
+    "course_name": "Optometry",
+    "course_code_base": "116",
+    "proposed_intake": "60",
+    "eligibility": "At least three ‘S’ grades in Chemistry, Physics and Biology at the G.C.E. (Advanced Level) Examination. ",
+    "degree_programme": "Bachelor of Science Honours in Optometry [BScHons (Optometry)]",
+    "available_universities": [
+      "University of Sri Jayewardenepura"
+    ],
+    "duration": "04 years",
+    "medium": "English"
+  },
+  {
+    "section": "2.2.3.32",
+    "course_name": "Applied Chemistry",
+    "course_code_base": "118",
+    "proposed_intake": "60",
+    "eligibility": "At least three ‘S’ grades in Chemistry, Physics and the third subject from the following subjects at the G.C.E. (Advanced Level) Examination.  Biology  Combined Mathematics  Mathematics  Higher Mathematics  Agricultural Science ",
+    "degree_programme": "Bachelor of Science Honours in Applied Chemistry [BScHons (App Chem)]",
+    "available_universities": [
+      "University of Kelaniya"
+    ],
+    "duration": "04 years",
+    "medium": "English"
+  },
+  {
+    "section": "2.2.3.33",
+    "course_name": "Indigenous Medicinal Resources",
+    "course_code_base": "120",
+    "proposed_intake": "70",
+    "eligibility": "At least ‘S’ grades for any three subjects from the following list of subjects at the G.C.E. (Advanced Level) Examination;  Chemistry  Physics  Biology  Agricultural Science ACADEMIC YEAR 2024/2025 - 65 - UNIVERSITY GRANTS COMMISSION ",
+    "degree_programme": "Bachelor of Science Honours in Indigenous Medicinal Resources [BScHons (Indigenous Medicinal Resources)]",
+    "available_universities": [
+      "Gampaha Wickramarachchi University of Indigenous",
+      "Medicine, Sri Lanka"
+    ],
+    "duration": "04 years",
+    "medium": "English"
+  },
+  {
+    "section": "2.2.3.34",
+    "course_name": "Aquatic Bioresources",
+    "course_code_base": "129",
+    "proposed_intake": "50",
+    "eligibility": "At least three ‘S’ grades in Biological Science Stream at the G.C.E. (Advanced Level) Examination. ",
+    "degree_programme": "s : Bachelor of Science in Aquatic Bioresources [BSc (Aquatic Bioresources)] Duration: 03 years",
+    "available_universities": [
+      "University of Sri Jayewardenepura"
+    ],
+    "duration": "03 years",
+    "medium": "English"
+  },
+  {
+    "section": "2.2.3.35",
+    "course_name": "Urban Bioresources",
+    "course_code_base": "130",
+    "proposed_intake": "50",
+    "eligibility": "At least three ‘S’ grades in Biological Science Stream at the G.C.E. (Advanced Level) Examination. ",
+    "degree_programme": "s : Bachelor of Science in Urban Bioresources [BSc (Urb Bioresources)] Duration: 03 years",
+    "available_universities": [
+      "University of Sri Jayewardenepura"
+    ],
+    "duration": "03 years",
+    "medium": "English"
+  },
+  {
+    "section": "2.2.3.36",
+    "course_name": "Medical Imaging Technology",
+    "course_code_base": "138",
+    "proposed_intake": "50",
+    "eligibility": "At least three ‘S’ grades in Physics, Biology and Chemistry at the G.C.E. (Advanced Level) Examination. ",
+    "degree_programme": "Bachelor of Science Honours in Medical Imaging Technology [BScHons (M Im Tech)]",
+    "available_universities": [
+      "University of Colombo"
+    ],
+    "duration": "04 years",
+    "medium": "English"
+  },
+  {
+    "section": "2.2.3.37",
+    "course_name": "Speech and Hearing Sciences",
+    "course_code_base": "083",
+    "proposed_intake": "75",
+    "eligibility": "At least three ‘S’ grades in Biology, Physics and Chemistry at the G.C.E. (Advanced Level) Examination. In addition to that, at least an Ordinary Pass (S) in English at the G.C.E. (Ordinary Level) Examination. ",
+    "degree_programme": "Bachelor of Science Honours in Speech and Hearing Sciences",
+    "available_universities": [
+      "University of Kelaniya"
+    ],
+    "duration": "04 years",
+    "medium": "English"
+  },
+  {
+    "section": "2.2.4.1",
+    "course_name": "Engineering",
+    "course_code_base": "008",
+    "proposed_intake": "2238",
+    "eligibility": "At least three ‘S’ grades in Chemistry, Combined Mathematics and Physics at the G.C.E. (Advanced Level) Examination. Fields of specialization available in each university are : University of Peradeniya:  Civil Engineering  Chemical & Process Engineering  Computer Engineering  Electrical & Electronic Engineering  Mechanical Engineering  Manufacturing & Industrial Engineering University of Moratuwa:  Biomedical Engineering  Electrical Engineering  Chemical & Process Engineering  Electronic and Telecommunication Engineering  Civil Engineering  Mechanical Engineering  Computer Science & Engineering  Materials Science & Engineering University of Ruhuna:  Civil and Environmental Engineering  Electrical and Information Engineering  Mechanical and Manufacturing Engineering  Marine Engineering & Naval Architecture  Computer Engineering University of Jaffna:  Civil Engineering  Electrical and Electronic Engineering  Mechanical Engineering  Computer Engineering South Eastern University of Sri Lanka:  Civil Engineering  Electrical Engineering #  Electronic Engineering #  Mechanical Engineering # For the time being Electrical Engineering and Electronic Engineering will be combined and offered as ‘Electrical & Electronic Engineering’. ACADEMIC YEAR 2024/2025 - 69 - UNIVERSITY GRANTS COMMISSION University of Sri Jayewardenepura:  Civil Engineering  Computer Engineering  Electrical and Electronic Engineering  Mechanical Engineering Selection for a particular field of specialization specified above would be done by the University to which the candidate has been admitted.",
+    "degree_programme": null,
+    "available_universities": [],
+    "duration": null,
+    "medium": null
+  },
+  {
+    "section": "2.2.4.2",
+    "course_name": "Engineering (EM) - Earth Resources Engineering",
+    "course_code_base": "009",
+    "proposed_intake": "80",
+    "eligibility": "At least three ‘S’ grades in Chemistry, Combined Mathematics and Physics at the G.C.E. (Advanced Level) Examination. ",
+    "degree_programme": "Bachelor of the Science of Engineering Honours in Earth Resources Engineering",
+    "available_universities": [
+      "University of Moratuwa",
+      " Duration : 04 years"
+    ],
+    "duration": "04 years",
+    "medium": null
+  },
+  {
+    "section": "2.2.4.3",
+    "course_name": "Engineering (TM) - Textile & Apparel Engineering",
+    "course_code_base": "010",
+    "proposed_intake": "98",
+    "eligibility": "At least three ‘S’ grades in Chemistry, Combined Mathematics and Physics at the G.C.E. (Advanced Level) Examination. ",
+    "degree_programme": "Bachelor of the Science of Engineering Honours in Textile & Apparel Engineering [BScEngHons (Textile & Apparel Engineering)]",
+    "available_universities": [
+      "University of Moratuwa",
+      " Duration : 04 years"
+    ],
+    "duration": "04 years",
+    "medium": null
+  },
+  {
+    "section": "2.2.4.4",
+    "course_name": "Transport Management & Logistics Engineering (TMLE)",
+    "course_code_base": "057",
+    "proposed_intake": "91",
+    "eligibility": "At least three ‘S’ grades in Chemistry, Combined Mathematics and Physics at the G.C.E. (Advanced Level) Examination. ",
+    "degree_programme": "Bachelor of the Science of Engineering Honours in Transport Management & Logistics Engineering [BScEngHons (Transport Management & Logistics Engineering)]",
+    "available_universities": [
+      "University of Moratuwa"
+    ],
+    "duration": "04 years",
+    "medium": null
+  },
+  {
+    "section": "2.2.4.5",
+    "course_name": "Physical Science",
+    "course_code_base": "013",
+    "proposed_intake": "2262",
+    "eligibility": "At least ‘S’ grades in following three subjects at the G.C.E. (Advanced Level) Examination and the three subjects must include; 1. Combined Mathematics or Higher Mathematics and 2. Chemistry or Physics and 3. The third subject from the list given below;  Agricultural Science  Combined Mathematics  Biology  Higher Mathematics  Chemistry  Physics ",
+    "degree_programme": "Bachelor of Science in Physical Science",
+    "available_universities": [
+      "University of Colombo",
+      "University of Peradeniya",
+      "University of Sri Jayewardenepura",
+      "University of Kelaniya",
+      "University of Jaffna",
+      "University of Ruhuna",
+      "Eastern University, Sri Lanka",
+      "South Eastern University of Sri Lanka"
+    ],
+    "duration": null,
+    "medium": null
+  },
+  {
+    "section": "2.2.4.6",
+    "course_name": "Computer Science",
+    "course_code_base": "012",
+    "proposed_intake": "686",
+    "eligibility": "At least a ‘C’ grade in Combined Mathematics or Physics or Higher Mathematics; and At least ‘S’ grades in two other subjects listed below at the G.C.E. (Advanced Level) Examination;  Combined Mathematics  Higher Mathematics  Mathematics  Physics  Chemistry  Information & Communication Technology ",
+    "degree_programme": "Bachelor of Science in Computer Science",
+    "available_universities": [
+      "University of Colombo School of Computing (UCSC)",
+      "University of Jaffna",
+      "University of Ruhuna",
+      "Trincomalee Campus, Eastern University, Sri Lanka"
+    ],
+    "duration": "03 years",
+    "medium": "English"
+  },
+  {
+    "section": "2.2.4.7",
+    "course_name": "Applied Sciences (Physical Science)",
+    "course_code_base": "015",
+    "proposed_intake": "778",
+    "eligibility": "At least ‘S’ grades in following three subjects at the G.C.E. (Advanced Level) Examination and the three subjects must include; 1. Combined Mathematics or Higher Mathematics and 2. Chemistry or Physics and 3. The third subject from the list given below;  Agricultural Science  Combined Mathematics  Biology  Higher Mathematics  Chemistry  Physics  Information & Communication Technology Details of the degree programmes under Applied Sciences (Physical Science) in different universities are given below: Rajarata University of Sri Lanka:  Bachelor of Science in Applied Sciences Duration: 03 years ACADEMIC YEAR 2024/2025 - 72 - UNIVERSITY GRANTS COMMISSION  Bachelor of Science Honours in Applied Sciences Duration: 04 years  Bachelor of Science Honours (Joint Major) in Applied Sciences Duration: 04 years  Bachelor of Science Honours in Industrial Mathematics Duration: 04 years  Bachelor of Science Honours in Chemistry Duration: 04 years Sabaragamuwa University of Sri Lanka:  Bachelor of Science (Applied Sciences) Honours in Chemical Technology  Bachelor of Science (Applied Sciences) Honours in Computer Science & Technology  Bachelor of Science (Applied Sciences) Honours in Applied Physics  Bachelor of Science (Applied Sciences) in Physical Sciences University of Vavuniya, Sri Lanka:  Bachelor of Science in Applied Mathematics & Computing Duration: 03 years  Bachelor of Science Honours in Computer Science Duration: 04 years Trincomalee Campus, Eastern University, Sri Lanka:  Bachelor of Science in Applied Physics and Electronics  Bachelor of Science Honours in Applied Physics  Bachelor of Science Honours in Electronics Wayamba University of Sri Lanka:  Bachelor of Science (English Medium, 03 years)  Bachelor of Science (Joint Major) in Major 1 and Major 2 † (English Medium, 04 years)  Bachelor of Science Honours in Applied Electronics (English Medium, 04 years)  Bachelor of Science Honours in Industrial Management (English Medium, 04 years)  Bachelor of Science Honours in Mathematics with Statistics (English Medium, 04 years) † Major 1 and Major 2 are two subjects from among the Computing & Information Systems, Electronics, Industrial Management, Mathematics & Mathematical Modeling and Statistics.",
+    "degree_programme": null,
+    "available_universities": [],
+    "duration": "03 years",
+    "medium": null
+  },
+  {
+    "section": "2.2.4.8",
+    "course_name": "Industrial Statistics & Mathematical Finance",
+    "course_code_base": "059",
+    "proposed_intake": "121",
+    "eligibility": "At least ‘S’ grades in Combined Mathematics and any two subjects given below at the G.C.E. (Advanced Level) Examination; • Higher Mathematics • Physics • Chemistry • Information & Communication Technology ACADEMIC YEAR 2024/2025 - 73 - UNIVERSITY GRANTS COMMISSION ",
+    "degree_programme": "s : Bachelor of Science Duration : 03 years",
+    "available_universities": [
+      "University of Colombo"
+    ],
+    "duration": "03 years",
+    "medium": null
+  },
+  {
+    "section": "2.2.4.9",
+    "course_name": "Statistics & Operations Research",
+    "course_code_base": "060",
+    "proposed_intake": "79",
+    "eligibility": "At least ‘S’ grades in Combined Mathematics and two of the following subjects at the G.C.E. (Advanced Level) Examination; • Biology • Chemistry • Physics • Agricultural Science • Mathematics • Higher Mathematics • Information & Communication Technology ",
+    "degree_programme": "Bachelor of Science Honours in Statistics and Operations Research",
+    "available_universities": [
+      "University of Peradeniya"
+    ],
+    "duration": "04 years",
+    "medium": null
+  },
+  {
+    "section": "2.2.4.11",
+    "course_name": "Artificial Intelligence",
+    "course_code_base": "117",
+    "proposed_intake": "50",
+    "eligibility": "At least a ‘C’ grade in Combined Mathematics or Physics or Higher Mathematics; and At least ‘S’ grades in two other subjects listed below at the G.C.E. (Advanced Level) Examination;  Combined Mathematics  Higher Mathematics  Mathematics  Physics  Chemistry  Information & Communication Technology ",
+    "degree_programme": "Bachelor of Science Honours in Artificial Intelligence [BScHons (AI)]",
+    "available_universities": [
+      "University of Moratuwa"
+    ],
+    "duration": "04 years",
+    "medium": "English"
+  },
+  {
+    "section": "2.2.4.12",
+    "course_name": "Electronics and Computer Science",
+    "course_code_base": "119",
+    "proposed_intake": "80",
+    "eligibility": "At least a ‘C’ grade in Combined Mathematics or Physics or Higher Mathematics and; Should have passed the three subjects at the G.C.E. (Advanced Level) Examination including Physics and Combined Mathematics or Higher Mathematics and the third subject from the list given below,  Chemistry  Combined Mathematics  Higher Mathematics  Information & Communication Technology ",
+    "degree_programme": "s : Bachelor of Science in Electronics and Computer Science [BSc (Elnc & Comp Sc)] Duration : 03 years Bachelor of Science Honours in Electronics and Computer Science [BScHons (Elnc & Comp Sc)] Duration : 04 years",
+    "available_universities": [
+      "University of Kelaniya"
+    ],
+    "duration": "03 years",
+    "medium": "English"
+  },
+  {
+    "section": "2.2.4.13",
+    "course_name": "Data Science",
+    "course_code_base": "136",
+    "proposed_intake": "65",
+    "eligibility": "At least a ‘C’ grade in Combined Mathematics or Physics or Higher Mathematics; and At least ‘S’ grades for two of the following subjects at the G.C.E. (Advanced Level) Examination;  Combined Mathematics  Physics  Higher Mathematics  Chemistry  Information & Communication Technology In addition to that, the candidates should have obtained at least a Credit Pass (C) in English at the G.C.E. (Ordinary Level) Examination. ",
+    "degree_programme": "Bachelor of Science Honours in Data Science [BScHons (Dat Sc)]",
+    "available_universities": [
+      "Sabaragamuwa University of Sri Lanaka"
+    ],
+    "duration": "04 years",
+    "medium": "English"
+  },
+  {
+    "section": "2.2.5.1",
+    "course_name": "Engineering Technology (ET)",
+    "course_code_base": "102",
+    "proposed_intake": "1336",
+    "eligibility": "At least ‘S’ grades for Engineering Technology (ET), Science for Technology (SFT) and for third subject from among;  Economics  Geography  Home Economics  English  Communication and Media Studies  Information & Communication Technology  Art  Business Studies  Agricultural Science  Accountancy  Mathematics Bachelor of Engineering Technology Honours [BET(Hons)] degree programme is available in following Universities; University of Sri Jayewardenepura Bachelor of Engineering Technology Honours University of Kelaniya Bachelor of Engineering Technology Honours University of Jaffna Bachelor of Engineering Technology Honours University of Ruhuna Bachelor of Engineering Technology Honours Rajarata University of Sri Lanka Bachelor of Engineering Technology Honours Wayamba University of Sri Lanka Bachelor of Engineering Technology Honours Uva Wellassa University of Sri Lanka Bachelor of Engineering Technology Honours in Mechanical Engineering Technology University of Colombo Bachelor of Engineering Technology Honours in Instrumentation and Automation Sabaragamuwa University of Sri Lanka Bachelor of Engineering Technology Honours ACADEMIC YEAR 2024/2025 - 78 - UNIVERSITY GRANTS COMMISSION Candidates who have offered subjects in the Engineering Technology Stream at the G.C.E. (Advanced Level) Examination could also seek admission to the following courses of study offered by different universities, provided that they have fulfilled the entry requirements for those courses of study.  Management Studies (TV)  Information Technology (IT)  Peace and Conflict Resolution  Information and Communication Technology (ICT)  Sports Science & Management  Physical Education  Fashion Design & Product Development  Design  Industrial Information Technology  Management and Information Technology (SEUSL)  Film & Television Studies  Project Management  Teaching English as a Second Language (TESL)  Human Resource Development  Health Information and Communication Technology  Health Tourism and Hospitality Management  Biomedical Technology  Indigenous Pharmaceutical Technology  Yoga and Parapsychology  Social Studies in Indigenous Knowledge  English Language and Applied Linguistics  Creative Music Technology and Production  Primary Education  Information Systems ACADEMIC YEAR 2024/2025 - 79 - UNIVERSITY GRANTS COMMISSION 2.2.6 BIOSYSTEMS TECHNOLOGY STREAM",
+    "degree_programme": null,
+    "available_universities": [],
+    "duration": null,
+    "medium": null
+  },
+  {
+    "section": "2.2.6.1",
+    "course_name": "Biosystems Technology (BST)",
+    "course_code_base": "103",
+    "proposed_intake": "1324",
+    "eligibility": "At least ‘S’ grades for Biosystems Technology (BST), Science for Technology (SFT) and for third subject from among;  Economics  Geography  Home Economics  English  Communication and Media Studies  Information & Communication Technology  Art  Business Studies  Agricultural Science  Accountancy  Mathematics Bachelor of Biosystems Technology Honours [BBST(Hons)] degree programme is available in following universities; University of Sri Jayewardenepura Bachelor of Biosystems Technology Honours University of Jaffna Bachelor of Biosystems Technology Honours in Commercial Green Farming Bachelor of Biosystems Technology Honours in Food Production Eastern University, Sri Lanka Bachelor of Biosystems Technology Honours in Agricultural Technology and Entrepreneurship South Eastern University of Sri Lanka Bachelor of Biosystems Technology Honours in Agricultural Technology Rajarata University of Sri Lanka Bachelor of Biosystems Technology Honours Wayamba University of Sri Lanka Bachelor of Biosystems Technology Honours Uva Wellassa University of Sri Lanka Bachelor of Biosystems Technology Honours University of Colombo Bachelor of Biosystems Technology Honours in Environmental Technology Bachelor of Biosystems Technology Honours in Agriculture ACADEMIC YEAR 2024/2025 - 80 - UNIVERSITY GRANTS COMMISSION Sabaragamuwa University of Sri Lanka Bachelor of Biosystems Technology Honours University of Ruhuna Bachelor of Biosystems Technology Honours University of Kelaniya Bachelor of Biosystems Technology Honours Candidates who have offered subjects in the Biosystems Technology Stream at the G.C.E. (Advanced Level) Examination could also seek admission to the following courses of study offered by different universities, provided that they have fulfilled the entry requirements for those courses of study.  Management Studies (TV)  Information Technology (IT)  Peace and Conflict Resolution  Information and Communication Technology (ICT)  Sports Science & Management  Physical Education  Fashion Design & Product Development  Design  Industrial Information Technology  Management and Information Technology (SEUSL)  Film & Television Studies  Project Management  Teaching English as a Second Language (TESL)  Human Resource Development  Health Information and Communication Technology  Health Tourism and Hospitality Management  Biomedical Technology  Indigenous Pharmaceutical Technology  Yoga and Parapsychology  Social Studies in Indigenous Knowledge  English Language and Applied Linguistics  Creative Music Technology and Production  Primary Education  Information Systems ACADEMIC YEAR 2024/2025 - 81 - UNIVERSITY GRANTS COMMISSION 2.2.7 Information Communication Technology (Course Code - 104) (Proposed Intake - 1020) Minimum eligibility requirements for admission : At least ‘S’ grades for Information & Communication Technology (ICT), Science for Technology (SFT) and Engineering Technology (ET) or Biosystems Technology (BST). Bachelor of Information and Communication Technology Honours [BICT(Hons)] degree programme is available in following Universities; University of Sri Jayewardenepura Bachelor of Information and Communication Technology Honours University of Kelaniya Bachelor of Information and Communication Technology Honours University of Vavuniya, Sri Lanka Bachelor of Information and Communication Technology Honours University of Ruhuna Bachelor of Information and Communication Technology Honours South Eastern University of Sri Lanka Bachelor of Information and Communication Technology Honours Rajarata University of Sri Lanka Bachelor of Information and Communication Technology Honours University of Colombo Bachelor of Information and Communication Technology Honours Uva Wellassa University of Sri Lanka Bachelor of Information and Communication Technology Honours Eastern University, Sri Lanka Bachelor of Information and Communication Technology Honours Candidates who are eligible for the course of study in Information Communication Technology at the G.C.E. (Advanced Level) Examination could also seek admission to the following courses of study offered by different universities, provided that they have fulfilled the entry requirements for those courses of study.  Management Studies (TV)  Peace and Conflict Resolution  Information and Communication Technology (ICT)  Sports Science & Management  Physical Education  Fashion Design & Product Development ACADEMIC YEAR 2024/2025 - 82 - UNIVERSITY GRANTS COMMISSION  Design  Industrial Information Technology  Management and Information Technology (SEUSL)  Film & Television Studies  Project Management  Human Resource Development  Health Tourism and Hospitality Management  Yoga and Parapsychology  Social Studies in Indigenous Knowledge  English Language and Applied Linguistics  Creative Music Technology and Production  Primary Education  Information Systems Three specific degree programmes are offered under the Technology Stream. They are Bachelor of Engineering Technology Honours [BET(Hons)], Bachelor of Biosystems Technology Honours [BBST(Hons)] and Bachelor of Information and Communication Technology Honours [BICT(Hons)]. All these degrees are designed to satisfy the market and industrial needs of the country. The Bachelor of Engineering Technology Honours [BET(Hons)] degrees are designed based on the Accreditation Manual prepared by the Institution of Engineers, Sri Lanka following the attributes of the Sydney Accord. The Bachelor of Information and Communication Technology Honours [BICT(Hons)] degrees are formulated according to the guidelines given by the Computer Society of Sri Lanka. With the commencement of the National Biotechnology Industry Association (NBIA) in September 2016, University Grants Commission identified National Biotechnology Industry Association (NBIA) as the relevant professional body for this sector in Sri Lanka to accredit Biosystems Technology degree programmes. All these courses contain a minimum of 120 credits. ACADEMIC YEAR 2024/2025 - 83 - UNIVERSITY GRANTS COMMISSION 2.2.8 COURSES OF STUDY FOR WHICH STUDENTS FROM DIFFERENT SUBJECT STREAMS ARE ELIGIBLE",
+    "degree_programme": null,
+    "available_universities": [],
+    "duration": null,
+    "medium": null
+  },
+  {
+    "section": "2.2.8.1",
+    "course_name": "Information Technology (IT)",
+    "course_code_base": "026",
+    "proposed_intake": "251",
+    "eligibility": "Three passes including at least a ‘C’ grade in one of the following subjects at the G.C.E. (Advanced Level) Examination;  Higher Mathematics  Combined Mathematics  Mathematics  Physics ",
+    "degree_programme": "Bachelor of Science Honours in Information Technology",
+    "available_universities": [
+      "University of Moratuwa"
+    ],
+    "duration": "04 years",
+    "medium": null
+  },
+  {
+    "section": "2.2.8.2",
+    "course_name": "Management and Information Technology (MIT)",
+    "course_code_base": "027",
+    "proposed_intake": "119",
+    "eligibility": "Having obtained at least a ‘C’ grade in one of the subjects; Higher Mathematics, Combined Mathematics, Mathematics or Physics (i). Three subjects at the G.C.E. (Advanced Level) Examination in Biological Science Stream or Physical Science Stream; or (ii). Two subjects from the Biological Science Stream or Physical Science Stream and Information & Communication Technology as the third subject. In addition to that, candidates should have satisfied the following requirements at the G.C.E. (Ordinary Level) Examination; (a) At least a Very Good Pass (B) in Mathematics (b) At least a Credit Pass (C) in English 40% from the proposed intake of this course of study will be selected from the Biological Science Stream and the remaining will be selected from other relevant subject combinations. ",
+    "degree_programme": "Bachelor of Science Honours in Management & Information Technology",
+    "available_universities": [
+      "University of Kelaniya"
+    ],
+    "duration": "04 years",
+    "medium": null
+  },
+  {
+    "section": "2.2.8.3",
+    "course_name": "Quantity Surveying",
+    "course_code_base": "011",
+    "proposed_intake": "152",
+    "eligibility": "Should have obtained a minimum of ‘S’ grade in at least one of the following subjects at the G.C.E.(Advanced Level) Examination;  Combined Mathematics  Higher Mathematics and other subject/subjects from the following list;  Accounting  Economics  Business Statistics  Business Studies  Physics  Chemistry  Information & Communication Technology In addition to that, candidates should have satisfied the following requirements at the G.C.E. (Ordinary Level) Examination; (a) At least a Credit Pass (C) in Mathematics (b) At least an Ordinary Pass (S) in Science (c) At least a Credit Pass (C) in English Language ",
+    "degree_programme": "Bachelor of Science Honours in Quantity Surveying",
+    "available_universities": [
+      "University of Moratuwa"
+    ],
+    "duration": "04 years",
+    "medium": null
+  },
+  {
+    "section": "2.2.8.4",
+    "course_name": "Surveying Science",
+    "course_code_base": "014",
+    "proposed_intake": "165",
+    "eligibility": "At least ‘S’ grades in Physics, Combined Mathematics and in any other subject available at the G.C.E. (Advanced Level) Examination. ",
+    "degree_programme": "Bachelor of Science in Surveying Science",
+    "available_universities": [
+      "Sabaragamuwa University of Sri Lanka"
+    ],
+    "duration": "04 years",
+    "medium": null
+  },
+  {
+    "section": "2.2.8.5",
+    "course_name": "Urban Informatics and Planning",
+    "course_code_base": "030",
+    "proposed_intake": "88",
+    "eligibility": "I At least Ordinary Passes (S) in three subjects from the following subjects at the G.C.E. (Advanced Level) Examination.  Combined Mathematics  Chemistry  Physics  Biology or II One or two subject/s from the above and the other subject/ subjects from the following subjects.  Accounting  Geography  Agricultural Science  Higher Mathematics  Business Studies  Logic & Scientific Methods  Business Statistics  Mathematics  Information & Communication  Biosystems Technology Technology  Science for Technology  Economics  Engineering Technology  Political Science In addition to that, candidates should have satisfied the following requirements at the G.C.E. (Ordinary Level) Examination; (a) At least a Very Good Pass (B) in English (b) At least a Credit Pass (C) in Mathematics ",
+    "degree_programme": "Bachelor of Science Honours in Urban Informatics and Planning [BScHons (Urb Informatics & Plan)]",
+    "available_universities": [
+      "University of Moratuwa"
+    ],
+    "duration": "04 years",
+    "medium": null
+  },
+  {
+    "section": "2.2.8.6",
+    "course_name": "Architecture",
+    "course_code_base": "023",
+    "proposed_intake": "100",
+    "eligibility": "A candidate should have obtained at least ‘S’ passes at the G.C.E. (Advanced Level) Examination in; (i) At least one of the following subjects;  Art  Chemistry  Higher Mathematics  Biology  Combined Mathematics  Physics  Geography and (ii) The other subject/ subjects from the following list;  Accounting  Mathematics  Hindu Civilization  Sanskrit  Business Statistics  German  Islamic Civilization  Information & Communication  Greek & Roman Civilization Technology  Political Science  Arabic  English  History  Sinhala  Business Studies  Communication & Media Studies  Japanese  Christian Civilization  Economics  Hindi  Pali  Buddhist Civilization  French  Home Economics  Tamil  Chinese  Agricultural Science  Logic & Scientific Method In addition, candidates must fulfill the following requirements; (a) At least an Ordinary Pass (S) in English at the G.C.E. (Ordinary Level) Examination (b) At least a Credit Pass (C) in Mathematics at the G.C.E. (Ordinary Level) Examination or an Ordinary Pass (S) in Mathematics at the G.C.E. (Advanced Level) Examination (c) Passed the Aptitude Test, which will be held by the University of Moratuwa ",
+    "degree_programme": "Bachelor of Architecture",
+    "available_universities": [
+      "University of Moratuwa"
+    ],
+    "duration": "05 years",
+    "medium": null
+  },
+  {
+    "section": "2.2.8.7",
+    "course_name": "Fashion Design & Product Development",
+    "course_code_base": "034",
+    "proposed_intake": "79",
+    "eligibility": "At least ‘S’ grades in any three subjects at the G.C.E. (Advanced Level) Examination. In addition to that, candidates must fulfill the following requirements; (a) At least a Credit Pass (C) in English, Mathematics, and Science at the G.C.E. (Ordinary Level) Examination. (b) Pass the Aptitude Test which will be conducted by the University of Moratuwa. ",
+    "degree_programme": "Honours Degree in Bachelor of Design (B Des Hons)",
+    "available_universities": [
+      "University of Moratuwa"
+    ],
+    "duration": "04 years",
+    "medium": null
+  },
+  {
+    "section": "2.2.8.8",
+    "course_name": "Landscape Architecture",
+    "course_code_base": "097",
+    "proposed_intake": "81",
+    "eligibility": "A candidate should have obtained at least ‘S’ passes at the G.C.E. (Advanced Level) Examination in; (i) At least one of the following subjects; Art  Geography Biology   Higher Mathematics Chemistry   Physics Combined Mathematics   Agricultural Science and (ii) The other subject/ subjects from the following list;  Accounting  Hindi  Arabic  Hindu Civilization  Buddhist Civilization  History  Business Statistics  Home Economics  Business Studies  Islamic Civilization  Chinese  Japanese  Greek & Roman Civilization  Logic & Scientific Method  Economics  Political Science  Mathematics  Pali  English  Sanskrit  French  Sinhala  German  Communication & Media Studies  Tamil  Information & Communication  Christian Civilization Technology In addition, candidates must fulfill the following requirements; (a) At least an Ordinary Pass (S) in English at the G.C.E. (Ordinary Level) Examination (b) At least a Credit Pass (C) in Mathematics at the G.C.E. (Ordinary Level) Examination or an Ordinary Pass (S) in Mathematics at the G.C.E. (Advanced Level) Examination (c) Passed the Aptitude Test, which will be conducted by the University of Moratuwa ",
+    "degree_programme": "Bachelor of Landscape Architecture",
+    "available_universities": [
+      "University of Moratuwa"
+    ],
+    "duration": "04 years",
+    "medium": null
+  },
+  {
+    "section": "2.2.8.9",
+    "course_name": "Design",
+    "course_code_base": "024",
+    "proposed_intake": "87",
+    "eligibility": "At least ‘S’ grades in any three subjects at the G.C.E. (Advanced Level) Examination. In addition to that, candidates must fulfill the following requirements; (a) At least an Ordinary Pass (S) in English at the G.C.E. (Ordinary Level) Examination (b) At least a Credit Pass (C) in Mathematics at the G.C.E. (Ordinary Level) Examination or an Ordinary Pass (S) in Mathematics at the G.C.E. (Advanced Level) Examination (c) At least a Credit Pass (C) in Science at the G.C.E. (Ordinary Level) Examination (d) Passed the Aptitude Test, which will be conducted by the University of Moratuwa ",
+    "degree_programme": "Bachelor of Design Honours",
+    "available_universities": [
+      "University of Moratuwa"
+    ],
+    "duration": "04 years",
+    "medium": null
+  },
+  {
+    "section": "2.2.8.10",
+    "course_name": "Law",
+    "course_code_base": "025",
+    "proposed_intake": "495",
+    "eligibility": "A candidate should have obtained ‘S’ grades for; (i) Three subjects from the following list at the G.C.E. (Advanced Level) Examination;  Accounting  Political Science  Agricultural Science  Geography  Biology  Higher Mathematics  Business Statistics  History  Business Studies  Logic & Scientific Method  Chemistry  Economics  Physics  Mathematics/ Combined Mathematics  Communication & Media Studies  Information & Communication Technology or (ii) One or two subjects from the above list and the other subject/ subjects from the following list;  Buddhism/ Buddhist Civilization  Islam/ Islamic Civilization  Christianity/ Christian Civilization  Chinese  Greek & Roman Civilization  English  Japanese  French  Pali  German  Sanskrit  Arabic  Sinhala  Hindi  Tamil  Russian  Hinduism/ Hindu Civilization In addition to that, candidates should have obtained at least a Credit Pass (C) in English at the G.C.E. (Ordinary Level) Examination or at least an Ordinary Pass (S) in English at the G.C.E. (Advanced Level) Examination. ",
+    "degree_programme": "Bachelor of Laws",
+    "available_universities": [
+      "University of Colombo",
+      "University of Peradeniya",
+      "University of Jaffna",
+      " Duration : 04 years"
+    ],
+    "duration": "04 years",
+    "medium": "English"
+  },
+  {
+    "section": "2.2.8.11",
+    "course_name": "Facilities Management",
+    "course_code_base": "056",
+    "proposed_intake": "81",
+    "eligibility": "Candidates should have fulfilled the relevant minimum qualifications indicated under one of the following two categories at the G.C.E. (Advanced Level) Examination. Category (A) Should have obtained at least ‘S’ grades in Chemistry, Combined Mathematics and Physics at the G.C.E. (Advanced Level) Examination. Category (B) Should have obtained at least ‘S’ grades in Business Studies, Economics and Accounting at the G.C.E. (Advanced Level) Examination; or Two subjects including Accounting from the above Category (B) and the other subject from the following subjects.  Agricultural Science  Geography  German  Combined Mathematics  History  Political Science  English  Logic & Scientific Methods  French  Physics  Information & Communication Technology In addition to fulfilling the minimum requirements under one of the above two categories, the candidates should have satisfied the following requirements at the G.C.E. (Ordinary Level) Examination; (a) At least a Credit Pass (C) in English (b) At least a Credit Pass (C) in Mathematics (c) At least a Credit Pass (C) in Science ",
+    "degree_programme": "Bachelor of Science Honours in Facilities Management [BScHons (FM)]",
+    "available_universities": [
+      "University of Moratuwa"
+    ],
+    "duration": "04 years",
+    "medium": null
+  },
+  {
+    "section": "2.2.8.12",
+    "course_name": "Management and Information Technology (SEUSL)",
+    "course_code_base": "079",
+    "proposed_intake": "170",
+    "eligibility": "At least ‘S’ grades in any three subjects at the G.C.E. (Advanced Level) Examination. This degree programme has combined course units of Management and Information Technology. ",
+    "degree_programme": "Bachelor of Science in Management and Information Technology (B.Sc. in MIT) ",
+    "available_universities": [
+      "South Eastern University of Sri Lanka",
+      " Duration : 03 years"
+    ],
+    "duration": "03 years",
+    "medium": null
+  },
+  {
+    "section": "2.2.8.13",
+    "course_name": "Science and Technology",
+    "course_code_base": "064",
+    "proposed_intake": "107",
+    "eligibility": "At least ‘S’ grades in Biology, Chemistry and the third subject from the following subjects at the G.C.E. (Advanced Level) Examination;  Agricultural Science  Higher Mathematics  Mathematics  Combined Mathematics  Physics or At least ‘S’ grades in following three subjects at the G.C.E. (Advanced Level) Examination and the three subjects must include; 1. Combined Mathematics or Higher Mathematics and 2. Chemistry or Physics and 3. The third subject from the list given below;  Agricultural Science  Combined Mathematics  Biology  Higher Mathematics  Chemistry  Physics ",
+    "degree_programme": "Bachelor of Science Honours in Science & Technology [BScHons (Science Tec)]",
+    "available_universities": [
+      "Uva Wellassa University of Sri Lanka",
+      " Duration : 04 years",
+      " Medium : English"
+    ],
+    "duration": "04 years",
+    "medium": "English"
+  },
+  {
+    "section": "2.2.8.14",
+    "course_name": "Computer Science & Technology",
+    "course_code_base": "065",
+    "proposed_intake": "101",
+    "eligibility": "At least ‘S’ grades in Biology, Chemistry and the third subject from the following subjects at the G.C.E. (Advanced Level) Examination;  Higher Mathematics  Mathematics  Combined Mathematics  Physics or At least ‘S’ grades in following three subjects at the G.C.E. (Advanced Level) Examination and the three subjects must include; 1. Combined Mathematics or Higher Mathematics and 2. Chemistry or Physics and 3. The third subject from the list given below;  Combined Mathematics  Biology  Higher Mathematics  Chemistry  Physics  Information & Communication Technology ",
+    "degree_programme": "Bachelor of Science Honours in Computer Science and Technology [BScHons (CST)]",
+    "available_universities": [
+      "Uva Wellassa University of Sri Lanka"
+    ],
+    "duration": "04 years",
+    "medium": "English"
+  },
+  {
+    "section": "2.2.8.15",
+    "course_name": "Entrepreneurship and Management",
+    "course_code_base": "066",
+    "proposed_intake": "101",
+    "eligibility": "At least ‘S’ grades in any three subjects in the Commerce Stream or Biological Science Stream or Physical Science Stream at the G.C.E. (Advanced Level) Examination. ",
+    "degree_programme": "Bachelor of Business Management Honours in Entrepreneurship and Management ",
+    "available_universities": [
+      "Uva Wellassa University of Sri Lanka",
+      " Duration : 04 years",
+      " Medium : English"
+    ],
+    "duration": "04 years",
+    "medium": "English"
+  },
+  {
+    "section": "2.2.8.16",
+    "course_name": "Industrial Information Technology",
+    "course_code_base": "075",
+    "proposed_intake": "100",
+    "eligibility": "At least a ‘C’ grade in Combined Mathematics or Physics or Information & Communication Technology at the G.C.E. (Advanced Level) Examination; and ‘S’ grades for any other two subjects available at the G.C.E. (Advanced Level) Examination. In addition to that, candidates should have satisfied the following requirements at the G.C.E. (Ordinary Level) Examination; (i) At least a Credit Pass (C) in English (ii) At least a Credit Pass (C) in Mathematics ",
+    "degree_programme": "Bachelor of Science Honours in Industrial Information Technology [BScHons (IIT)]",
+    "available_universities": [
+      "Uva Wellassa University of Sri Lanka",
+      " Duration : 04 years",
+      " Medium : English"
+    ],
+    "duration": "04 years",
+    "medium": "English"
+  },
+  {
+    "section": "2.2.8.17",
+    "course_name": "Mineral Resources and Technology",
+    "course_code_base": "076",
+    "proposed_intake": "106",
+    "eligibility": "At least ‘S’ grades for one of the following combinations of subjects at the G.C.E. (Advanced Level) Examination. (1). Biology, Chemistry, Physics (2). Combined Mathematics, Chemistry, Physics ",
+    "degree_programme": "Bachelor of Science Honours in Mineral Resources and Technology [BScHons (MRT)]",
+    "available_universities": [
+      "Uva Wellassa University of Sri Lanka"
+    ],
+    "duration": "04 years",
+    "medium": "English"
+  },
+  {
+    "section": "2.2.8.18",
+    "course_name": "Hospitality, Tourism and Events Management",
+    "course_code_base": "090",
+    "proposed_intake": "107",
+    "eligibility": "At least ‘S’ grades in any three subjects in the Commerce Stream or Biological Science Stream or Physical Science Stream at the G.C.E. (Advanced Level) Examination. ",
+    "degree_programme": "Bachelor of Business Management Honours in Hospitality, Tourism and Events Management",
+    "available_universities": [
+      "Uva Wellassa University of Sri Lanka"
+    ],
+    "duration": "04 years",
+    "medium": "English"
+  },
+  {
+    "section": "2.2.8.19",
+    "course_name": "Physical Education",
+    "course_code_base": "081",
+    "proposed_intake": "150",
+    "eligibility": "At least ‘S’ grades in any three subjects at the G.C.E. (Advanced Level) Examination. In addition, candidates should have passed the Practical Test conducted in common to the courses of study in ‘Physical Education’ and ‘Sports Science & Management’. ",
+    "degree_programme": "s & : Bachelor of Science Honours in Physical Education",
+    "available_universities": [
+      "Sabaragamuwa University of Sri Lanka"
+    ],
+    "duration": "04 years",
+    "medium": "English"
+  },
+  {
+    "section": "2.2.8.20",
+    "course_name": "Sports Science & Management",
+    "course_code_base": "082",
+    "proposed_intake": "228",
+    "eligibility": "At least ‘S’ grades in any three subjects at the G.C.E. (Advanced Level) Examination. In addition, candidates should have passed the Practical Test conducted in common to the courses of study in ‘Sports Science & Management’ and ‘Physical Education’. ",
+    "degree_programme": "s & : Bachelor of Science Honours in Sports Science",
+    "available_universities": [
+      "& Management",
+      "Sabaragamuwa University of Sri Lanka"
+    ],
+    "duration": "04 years",
+    "medium": "English"
+  },
+  {
+    "section": "2.2.8.21",
+    "course_name": "Information Technology & Management",
+    "course_code_base": "091",
+    "proposed_intake": "127",
+    "eligibility": "The candidates should have passed the three subjects with at least ‘C’ grades in two of the following subjects at the G.C.E. (Advanced Level) Examination.  Higher Mathematics  Chemistry  Combined Mathematics  Accounting  Mathematics  Business Statistics  Physics  Information & Communication Technology In addition to that, candidates should have satisfied the following requirements at the G.C.E. (Ordinary Level) Examination. (i) At least a Credit Pass (C) in English (ii) At least a Credit Pass (C) in Mathematics ",
+    "degree_programme": "Bachelor of Science Honours in Information Technology & Management",
+    "available_universities": [
+      "University of Moratuwa"
+    ],
+    "duration": "04 years",
+    "medium": "English"
+  },
+  {
+    "section": "2.2.8.22",
+    "course_name": "Tourism & Hospitality Management",
+    "course_code_base": "092",
+    "proposed_intake": "181",
+    "eligibility": "At least three ‘S’ grades for one of the following combinations of subjects at the G.C.E. (Advanced Level) Examination; (i) Any three subjects in the Commerce, Biological Science and Physical Science Streams (ii) At least one of the following subjects and any other two subjects in the Arts Stream selected according to the conditions specified in the Section 2.2.1.1 of this handbook.  Economics  Geography  Business Statistics ",
+    "degree_programme": "s & : Sabaragamuwa University of Sri Lanka",
+    "available_universities": [
+      "Bachelor of Science Honours in Tourism Management",
+      "Bachelor of Science Honours in Hospitality Management",
+      "Rajarata University of Sri Lanka",
+      "Bachelor of Science Honours in Tourism Management",
+      "Bachelor of Science Honours in Tourism & Hospitality",
+      "Management"
+    ],
+    "duration": "04 years",
+    "medium": "English"
+  },
+  {
+    "section": "2.2.8.23",
+    "course_name": "Information Systems",
+    "course_code_base": "096",
+    "proposed_intake": "350",
+    "eligibility": "At least a ‘C’ grade in Combined Mathematics or Physics or Information & Communication Technology at the G.C.E. (Advanced Level) Examination; and ‘S’ grades for any other two subjects available at the G.C.E. (Advanced Level) Examination. In addition to that, candidates should have satisfied the following requirements at the G.C.E. (Ordinary Level) Examination; (i) At least a Credit Pass (C) in English (ii) At least a Credit Pass (C) in Mathematics ",
+    "degree_programme": "s & : Bachelor of Science in Information Systems",
+    "available_universities": [
+      "University of Colombo, School of Computing (UCSC)"
+    ],
+    "duration": "03 years",
+    "medium": "English"
+  },
+  {
+    "section": "2.2.8.24",
+    "course_name": "Translation Studies",
+    "course_code_base": "098",
+    "proposed_intake": "158",
+    "eligibility": "Should have passed three subjects with at least a ‘C’ grade for Sinhala or Tamil at the G.C.E. (Advanced Level) Examination; In addition, candidates must fulfill the following requirments; (i). At least ‘B’ grades for one of the following subject combinations at the G.C.E. (Ordinary Level) Examination; (a) Sinhala Language & Lit. and English (b) Tamil Language & Lit. and English or (ii). At least a ‘S’ grade for English Language at the G.C.E. (Advanced Level) Examination. ",
+    "degree_programme": "s & : Bachelor of Arts Honours in Translation Studies",
+    "available_universities": [
+      "(English / Sinhala)",
+      "University of Kelaniya"
+    ],
+    "duration": "04 years",
+    "medium": null
+  },
+  {
+    "section": "2.2.8.25",
+    "course_name": "Film & Television Studies",
+    "course_code_base": "100",
+    "proposed_intake": "60",
+    "eligibility": "At least ‘S’ grades in any three subjects at the G.C.E. (Advanced Level) Examination. In addition, candidates should have passed the Aptitude Test, which will be conducted by the University of Kelaniya based on specific skills in Film & Television. Therefore, the candidates who are interested in Film & Television disciplines and posses specific skills are expected to apply. The Aptitude Test may consist of either an interview, practical test or a written test or of all three components as decided by the University. ",
+    "degree_programme": "Bachelor of Arts Honours in Film & Television Studies",
+    "available_universities": [
+      "University of Kelaniya",
+      " Duration : 04 years"
+    ],
+    "duration": "04 years",
+    "medium": null
+  },
+  {
+    "section": "2.2.8.26",
+    "course_name": "Project Management",
+    "course_code_base": "101",
+    "proposed_intake": "101",
+    "eligibility": "The candidates should have passed the three subjects with at least ‘C’ grades in two of the following subjects at the G.C.E. (Advanced Level) Examination;  Accounting  Mathematics/Combined Mathematics  Business Studies  Biology  Business Statistics  Agricultural Science  Economics  Engineering Technology  Geography  Biosystems Technology  Information & Communication Technology ",
+    "degree_programme": "s : Bachelor of Business Management in Project Management & Durations 03 years Bachelor of Business Management Honours in Project Management [BBMHons (Project Management)] 04 years",
+    "available_universities": [
+      "University of Vavuniya, Sri Lanka",
+      " Medium : English"
+    ],
+    "duration": null,
+    "medium": "English"
+  },
+  {
+    "section": "2.2.8.27",
+    "course_name": "Information and Communication Technology (ICT)",
+    "course_code_base": "038",
+    "proposed_intake": "285",
+    "eligibility": "At least a ‘C’ grade in Combined Mathematics or Physics or Information & Communication Technology at the G.C.E. (Advanced Level) Examination; and ‘S’ grades for any other two subjects available at the G.C.E. (Advanced Level) Examination. In addition to that, candidates should have satisfied the following requirements at the G.C.E. (Ordinary Level) Examination; (i) At least a Credit Pass (C) in English (ii) At least a Credit Pass (C) in Mathematics ",
+    "degree_programme": "s & : Bachelor of Science in Information Technology",
+    "available_universities": [
+      "[BSc (IT)]",
+      "Rajarata University of Sri Lanka"
+    ],
+    "duration": "03 years",
+    "medium": "of instructions is English only"
+  },
+  {
+    "section": "2.2.8.28",
+    "course_name": "Software Engineering",
+    "course_code_base": "099",
+    "proposed_intake": "186",
+    "eligibility": "A candidate should have obtained at least ‘S’ grades in Combined Mathematics, Physics and third subject from the following list at the G.C.E. (Advanced Level) Examination;  Chemistry  Higher Mathematics  Information & Communication Technology ",
+    "degree_programme": "s & : Bachelor of Science Honours in Software Engineering",
+    "available_universities": [
+      "University of Kelaniya",
+      "Sabaragamuwa University of Sri Lanka"
+    ],
+    "duration": "04 years",
+    "medium": "English"
+  },
+  {
+    "section": "2.2.8.29",
+    "course_name": "Food Business Management",
+    "course_code_base": "107",
+    "proposed_intake": "135",
+    "eligibility": "Candidates should have fulfilled the relevant minimum qualifications indicated under one of the following two categories at the G.C.E. (Advanced Level) Examination. Category (A) Should have sat for the G.C.E. (Advanced Level) Examination from Biological Science Stream or Physical Science Stream and obtained at least ‘S’ grades for any three subjects from Chemistry, Biology, Physics, Combined Mathematics or Agriculture. Category (B) Should have sat for the G.C.E. (Advanced Level) Examination from Commerce Stream and obtained at least ‘S’ grades for Business Studies, Economics and Accounting. 50% of the total number of students admitted for this programme will be selected from Category (A) where as remaining 50% will be selected from category (B). In addition to that, candidates should have obtained at least Credit Passes (C) in English, Mathematics and Science at the G.C.E. (Ordinary Level) Examination. ",
+    "degree_programme": "Bachelor of Science Honours in Food Business Management",
+    "available_universities": [
+      "Sabaragamuwa University of Sri Lanka"
+    ],
+    "duration": "04 years",
+    "medium": null
+  },
+  {
+    "section": "2.2.8.30",
+    "course_name": "Marine and Fresh Water Sciences",
+    "course_code_base": "106",
+    "proposed_intake": "100",
+    "eligibility": "At least ‘S’ grades for the three subjects in one of the following combinations of subjects at the G.C.E. (Advanced Level) Examination; (i) Chemistry, Physics and Biology or (ii) Chemistry, Physics and Combined Mathematics ",
+    "degree_programme": "Bachelor of Science Honours in Marine and Freshwater Sciences ",
+    "available_universities": [
+      "University of Ruhuna",
+      " Duration : 04 years",
+      " Fields of specialization : Oceanography & Marine Geology",
+      "Water Sciences & Technology",
+      " Medium : English"
+    ],
+    "duration": "04 years",
+    "medium": "English"
+  },
+  {
+    "section": "2.2.8.31",
+    "course_name": "Business Science",
+    "course_code_base": "109",
+    "proposed_intake": "150",
+    "eligibility": "At least ‘S’ grades in the three subjects in Physical Science Stream or Commerce Stream at the G.C.E. (Advanced Level) Examination or At least ‘S’ grades in the two subjects in Physical Science Stream or Commerce Stream and at least ‘S’ grade in Information & Communication Technology as the third subject at the G.C.E. (Advanced Level) Examination. In addition to the above,candidates should have obtained at least a Credit Pass (C) in Mathematics at the G.C.E. (Ordinary Level) Examination. ",
+    "degree_programme": "Bachelor of Business Science Honours",
+    "available_universities": [
+      "University of Moratuwa",
+      " Duration : 04 years",
+      " Fields of specialization : Business Analytics",
+      "Business Process Management",
+      "Financial Services Management",
+      " Medium : English"
+    ],
+    "duration": "04 years",
+    "medium": "English"
+  },
+  {
+    "section": "2.2.8.32",
+    "course_name": "Financial Engineering",
+    "course_code_base": "110",
+    "proposed_intake": "80",
+    "eligibility": "At least ‘S’ grades in Economics, Accounting and one of the following subjects at the G.C.E. (Advanced Level) Examination;  Business Studies  Combined Mathematics  Information & Communication Technology  History  Business Statistics  Political Science  Agricultural Science  Physics  Geography  Logic & Scientific Method In addition to that, candidates should have satisfied the following requirements at the G.C.E. (Ordinary Level) Examination; (i) At least a Credit Pass (C) in English (ii) At least a Credit Pass (C) in Mathematics ",
+    "degree_programme": "Bachelor of Business Management Honours in Financial Engineering ",
+    "available_universities": [
+      "University of Kelaniya",
+      " Duration : 04 years",
+      " Medium : English"
+    ],
+    "duration": "04 years",
+    "medium": "English"
+  },
+  {
+    "section": "2.2.8.33",
+    "course_name": "Geographical Information Science",
+    "course_code_base": "111",
+    "proposed_intake": "75",
+    "eligibility": "At least ‘S’ grades in any three subjects in the Arts Stream selected according to the conditions specified in the Section 2.2.1.1 of this handbook, Biological Science Stream or Physical Science Stream at the G.C.E. (Advanced Level) Examination. ",
+    "degree_programme": "Bachelor of Science Honours in Geographical Information Science",
+    "available_universities": [
+      "University of Peradeniya"
+    ],
+    "duration": "04 years",
+    "medium": "English"
+  },
+  {
+    "section": "2.2.8.34",
+    "course_name": "Financial Mathematics and Industrial Statistics",
+    "course_code_base": "113",
+    "proposed_intake": "50",
+    "eligibility": "At least ‘S’ grades for Combined Mathematics and any other two subjects at the G.C.E. (Advanced Level) Examination. ",
+    "degree_programme": "Bachelor of Science Honours in Financial Mathematics and Industrial Statistics [BScHons (Fin. Math & Ind. Stat.)]",
+    "available_universities": [
+      "University of Ruhuna"
+    ],
+    "duration": "04 years",
+    "medium": "English"
+  },
+  {
+    "section": "2.2.8.35",
+    "course_name": "Human Resource Development",
+    "course_code_base": "114",
+    "proposed_intake": "85",
+    "eligibility": "At least ‘S’ grades in any three subjects at the G.C.E. (Advanced Level) Examination. ",
+    "degree_programme": "Bachelor of Business Management Honours in Human Resource Development [BBMHons (Human Resource Development)]",
+    "available_universities": [
+      "Uva Wellassa University of Sri Lanka"
+    ],
+    "duration": "04 years",
+    "medium": "English"
+  },
+  {
+    "section": "2.2.8.36",
+    "course_name": "Health Information and Communication Technology",
+    "course_code_base": "121",
+    "proposed_intake": "70",
+    "eligibility": "At least ‘S’ grades in any three subjects in Engineering Technology Stream or Biosystem Technology Stream at the G.C.E. (Advanced Level) Examination. ",
+    "degree_programme": "Bachelor of Health Science Honours in Health Information and Communication Technology [BHScHons (Health Information and Communication Technology)]",
+    "available_universities": [
+      "Gampaha Wickramarachchi University of Indigenous",
+      "Medicine, Sri Lanka"
+    ],
+    "duration": "04 years",
+    "medium": "English"
+  },
+  {
+    "section": "2.2.8.37",
+    "course_name": "Health Tourism and Hospitality Management",
+    "course_code_base": "122",
+    "proposed_intake": "70",
+    "eligibility": "At least ‘S’ grades in any three subjects in the Commerce Stream or Biological Science Stream or Physical Science Stream or Engineering Technology Stream or Biosystem Technology Stream at the G.C.E. (Advanced Level) Examination. ",
+    "degree_programme": "Bachelor of Science Honours in Health Tourism and Hospitality Management [BScHons (Health Tourism and Hospitality Management)]",
+    "available_universities": [
+      "Gampaha Wickramarachchi University of Indigenous",
+      "Medicine, Sri Lanka"
+    ],
+    "duration": "04 years",
+    "medium": "English"
+  },
+  {
+    "section": "2.2.8.38",
+    "course_name": "Biomedical Technology",
+    "course_code_base": "123",
+    "proposed_intake": "70",
+    "eligibility": "At least ‘S’ grades in any three subjects in Engineering Technology Stream or Biosystem Technology Stream at the G.C.E. (Advanced Level) Examination. ",
+    "degree_programme": "Bachelor of Health Science Honours in Biomedical Technology [BHScHons (Biomedical Technology)]",
+    "available_universities": [
+      "Gampaha Wickramarachchi University of Indigenous",
+      "Medicine, Sri Lanka"
+    ],
+    "duration": "04 years",
+    "medium": "English"
+  },
+  {
+    "section": "2.2.8.39",
+    "course_name": "Indigenous Phamaceutical Technology",
+    "course_code_base": "124",
+    "proposed_intake": "70",
+    "eligibility": "At least ‘S’ grades in any three subjects in Engineering Technology Stream or Biosystem Technology Stream at the G.C.E. (Advanced Level) Examination or At least ‘S’ grades in any three of the following list of subjects at the G.C.E. (Advanced Level) Examination.  Chemistry  Physics  Biology  Agricultural Science ",
+    "degree_programme": "Bachelor of Health Science Honours in Indigenous Pharmaceutical Technology [BHScHons (Indigenous Pharmaceutical Technology)]",
+    "available_universities": [
+      "Gampaha Wickramarachchi University of Indigenous",
+      "Medicine, Sri Lanka"
+    ],
+    "duration": "04 years",
+    "medium": "English"
+  },
+  {
+    "section": "2.2.8.40",
+    "course_name": "Yoga and Parapsychology",
+    "course_code_base": "125",
+    "proposed_intake": "70",
+    "eligibility": "At least ‘S’ grades in any three subjects at the G.C.E. (Advanced Level) Examination. ",
+    "degree_programme": "Bachelor of Science Honours in Yoga and Parapsychology [BScHons (Yoga and Parapsychology)]",
+    "available_universities": [
+      "Gampaha Wickramarachchi University of Indigenous",
+      "Medicine, Sri Lanka"
+    ],
+    "duration": "04 years",
+    "medium": "English"
+  },
+  {
+    "section": "2.2.8.41",
+    "course_name": "Social Studies in Indigenous Knowledge",
+    "course_code_base": "126",
+    "proposed_intake": "70",
+    "eligibility": "At least ‘S’ grades in any three subjects at the G.C.E. (Advanced Level) Examination. ",
+    "degree_programme": "Bachelor of Science Honours in Social Studies in Indigenous Knowledge [BScHons (Social Studies) (Indigenous Knowledge)]",
+    "available_universities": [
+      "Gampaha Wickramarachchi University of Indigenous",
+      "Medicine, Sri Lanka"
+    ],
+    "duration": "04 years",
+    "medium": "English"
+  },
+  {
+    "section": "2.2.8.42",
+    "course_name": "Financial Economics",
+    "course_code_base": "131",
+    "proposed_intake": "50",
+    "eligibility": "At least a ‘B’ grade in Economics and at least ‘S’ grades for any other two subjects in Art Stream or Commerce Stream at the G.C.E. (Advanced Level) Examination. ",
+    "degree_programme": "Bachelor of Arts Honours in Financial Economics [BAHons (Fin Ec)]",
+    "available_universities": [
+      "University of Sri Jayewardenepura"
+    ],
+    "duration": "04 years",
+    "medium": "English"
+  },
+  {
+    "section": "2.2.8.43",
+    "course_name": "English Language & Applied Linguistics",
+    "course_code_base": "132",
+    "proposed_intake": "50",
+    "eligibility": "At least ‘S’ grades in any three subjects at the G.C.E. (Advanced Level) Examination. ",
+    "degree_programme": "Bachelor of Arts Honours in English Language & Applied Linguistics [BAHons (English Lang & App Ling)]",
+    "available_universities": [
+      "Uva Wellassa University of Sri Lanka"
+    ],
+    "duration": "04 years",
+    "medium": "English"
+  },
+  {
+    "section": "2.2.8.44",
+    "course_name": "Creative Music Technology and Production",
+    "course_code_base": "134",
+    "proposed_intake": "50",
+    "eligibility": "At least ‘S’ grades in any three subjects at the G.C.E. (Advanced Level) Examination. ",
+    "degree_programme": "Bachelor of Arts Honours in Creative Music Technology and Production [BAHons (Crtv Mus Tech & Prod)]",
+    "available_universities": [
+      "University of Sri Jayewardenepura"
+    ],
+    "duration": "04 years",
+    "medium": "Sinhala / English"
+  },
+  {
+    "section": "2.2.8.45",
+    "course_name": "Plantation Management and Technology",
+    "course_code_base": "135",
+    "proposed_intake": "216",
+    "eligibility": "At least three ‘S’ grades for one of the following combinations of subjects at the G.C.E. (Advanced Level) Examination; (1). Biology, Chemistry, Physics or Agricultural Science (2). Combined Mathematics, Chemistry, Physics ",
+    "degree_programme": "Bachelor of Science Honours in Plantation Management and Technology [BScHons (Plantation Mgt & Tech)]",
+    "available_universities": [
+      "Uva Wellassa University of Sri Lanka"
+    ],
+    "duration": "04 years",
+    "medium": "English"
+  },
+  {
+    "section": "2.2.8.46",
+    "course_name": "Primary Education",
+    "course_code_base": "137",
+    "proposed_intake": "75",
+    "eligibility": "At least ‘S’ grades in any three subjects at the G.C.E. (Advanced Level) Examination. ",
+    "degree_programme": "Bachelor of Education Honours in Primary Education [BEdHons (Prim Ed)]",
+    "available_universities": [
+      "University of Colombo"
+    ],
+    "duration": "04 years",
+    "medium": "Sinhala"
+  },
+  {
+    "section": "2.2.8.47",
+    "course_name": "Polymer Science and Industrial Management",
+    "course_code_base": "139",
+    "proposed_intake": "50",
+    "eligibility": "At least three ‘S’ grades for one of the following combinations of subjects at the G.C.E. (Advanced Level) Examination; (1). Biology, Physics, Chemistry (2). Combined Mathematics, Physics, Chemistry ",
+    "degree_programme": "Bachelor of Science Honours in Polymer Science and Industrial Management [BScHons (Polymer Sc & Indus Mgt)]",
+    "available_universities": [
+      "University of Sri Jayewardenepura"
+    ],
+    "duration": "04 years",
+    "medium": "English"
+  }
+]

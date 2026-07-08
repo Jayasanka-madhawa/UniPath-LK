@@ -1,0 +1,5 @@
+pymupdf
+chromadb
+tiktoken
+ollama
+rank-bm25

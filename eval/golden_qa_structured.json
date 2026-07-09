@@ -1,0 +1,42 @@
+[
+  {
+    "name": "find_computer_science",
+    "type": "find_course",
+    "args": { "name": "Computer Science" },
+    "expect": { "course_code_base": "012" }
+  },
+  {
+    "name": "compare_intake",
+    "type": "compare",
+    "args": { "course_1": "013", "course_2": "012" },
+    "expect": { "has_comparison": true }
+  },
+  {
+    "name": "colombo_eligible",
+    "type": "eligible",
+    "args": { "district": "Colombo", "z_score": 2.04, "year": "2024/2025" },
+    "expect": { "min_count": 50, "includes_code": "012" }
+  },
+  {
+    "name": "gap_cs_qualifies",
+    "type": "gap",
+    "args": {
+      "district": "Colombo",
+      "z_score": 2.04,
+      "course_code": "012",
+      "year": "2024/2025"
+    },
+    "expect": { "qualifies": true }
+  },
+  {
+    "name": "gap_low_z_fails",
+    "type": "gap",
+    "args": {
+      "district": "Colombo",
+      "z_score": 0.5,
+      "course_code": "012",
+      "year": "2024/2025"
+    },
+    "expect": { "qualifies": false }
+  }
+]

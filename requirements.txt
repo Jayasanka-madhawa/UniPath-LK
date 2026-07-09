@@ -3,3 +3,7 @@ chromadb
 tiktoken
 ollama
 rank-bm25
+streamlit
+langgraph
+langchain-core
+langchain-ollama

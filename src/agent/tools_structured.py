@@ -36,7 +36,11 @@ def get_eligible_courses_tool(district: str, z_score: float, year: str = "2024/2
     results = get_eligible_courses(district, float(z_score), year)
     if not results:
         return f"No eligible courses for {district} at Z={z_score} ({year})."
-    return json.dumps(results[:40], ensure_ascii=False, indent=2)
+    summary = (
+        f"Found {len(results)} eligible university/course options for "
+        f"{district} at Z={z_score} ({year}). Showing first 40:\n"
+    )
+    return summary + json.dumps(results[:40], ensure_ascii=False, indent=2)
 
 def get_gap_analysis_tool(district: str, z_score: float, course_code: str, year: str = "2024/2025") -> str:
     try:

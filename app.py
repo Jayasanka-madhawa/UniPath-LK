@@ -24,6 +24,7 @@ if question:
     if mode == "Agent":
         from src.agent.agent import run_agent
         result = run_agent(question)
+        st.caption(f"Backend: {result.backend}")
         st.write(result.answer)
         with st.expander("Tool trace"):
             for call in result.tool_calls:

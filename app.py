@@ -18,26 +18,38 @@ question = st.text_input(
     placeholder="e.g. What is the maximum number of A/L attempts allowed?",
 )
 
+mode = st.radio("Mode", ["Agent", "RAG"], horizontal=True)
+
 if question:
-    with st.spinner("Searching handbook..."):
-        hits = retrieve(question)
-        confident = retrieval_confidence(hits)
-        answer = answer_question(question)
+    if mode == "Agent":
+        from src.agent.agent import run_agent
+        result = run_agent(question)
+        st.write(result.answer)
+        with st.expander("Tool trace"):
+            for call in result.tool_calls:
+                st.code(f"{call.action}({call.args})")
+                st.text(call.observation[:1000])
+    else:
 
-    st.subheader("Answer")
-    st.write(answer)
+        with st.spinner("Searching handbook..."):
+            hits = retrieve(question)
+            confident = retrieval_confidence(hits)
+            answer = answer_question(question)
 
-    st.subheader("Retrieved sources")
-    if not confident:
-        st.info("Low retrieval confidence — answer may be refused.")
+        st.subheader("Answer")
+        st.write(answer)
 
-    for i, hit in enumerate(hits, start=1):
-        m = hit["metadata"]
-        label = (
-            f"[{i}] {m.get('doc_type', 'content')} | "
-            f"Section: {m.get('section') or 'N/A'} | "
-            f"pp. {m['page_start']}-{m['page_end']} | "
-            f"RRF: {hit.get('rrf_score', 0):.4f}"
-        )
-        with st.expander(label):
-            st.text(hit["text"][:1200])
+        st.subheader("Retrieved sources")
+        if not confident:
+            st.info("Low retrieval confidence — answer may be refused.")
+
+        for i, hit in enumerate(hits, start=1):
+            m = hit["metadata"]
+            label = (
+                f"[{i}] {m.get('doc_type', 'content')} | "
+                f"Section: {m.get('section') or 'N/A'} | "
+                f"pp. {m['page_start']}-{m['page_end']} | "
+                f"RRF: {hit.get('rrf_score', 0):.4f}"
+            )
+            with st.expander(label):
+                st.text(hit["text"][:1200])

@@ -5,6 +5,7 @@ from pathlib import Path
 SCHEMA_PATH = Path("src/db/schema.sql")
 COURSES_PATH = Path("data/structured/courses.json")
 DB_PATH = Path("data/structured/unipath.db")
+CUTOFFS_PATH = Path("data/structured/cutoffs.json")
 
 
 def parse_intake(value) -> int | None:
@@ -19,6 +20,38 @@ def parse_intake(value) -> int | None:
 def load_courses() -> list[dict]:
     return json.loads(COURSES_PATH.read_text(encoding="utf-8"))
 
+def load_cutoffs(conn: sqlite3.Connection) -> int:
+    if not CUTOFFS_PATH.exists():
+        print(f"No cutoffs file at {CUTOFFS_PATH} — skipping cutoffs")
+        return 0
+
+    cutoffs = json.loads(CUTOFFS_PATH.read_text(encoding="utf-8"))
+    inserted = 0
+
+    for row in cutoffs:
+        conn.execute(
+            """
+            INSERT OR REPLACE INTO cutoffs (
+                uni_code, course_code_base, course_name, university, district,
+                stream, academic_year, z_score, nqc_flag
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+            """,
+            (
+                row["uni_code"],
+                row["course_code_base"],
+                row.get("course_name"),
+                row["university"],
+                row["district"],
+                row.get("stream"),
+                row["academic_year"],
+                row.get("z_score"),
+                1 if row.get("nqc_flag") else 0,
+            ),
+        )
+        inserted += 1
+
+    conn.commit()
+    return inserted
 
 def build_db() -> None:
     courses = load_courses()
@@ -75,16 +108,19 @@ def build_db() -> None:
             inserted_unis += 1
 
     conn.commit()
+    cutoff_count = load_cutoffs(conn)
 
     course_count = conn.execute("SELECT COUNT(*) FROM courses").fetchone()[0]
     uni_count = conn.execute("SELECT COUNT(*) FROM course_universities").fetchone()[0]
+    cutoff_total = conn.execute("SELECT COUNT(*) FROM cutoffs").fetchone()[0]
     conn.close()
 
     print(f"Database: {DB_PATH}")
     print(f"Courses inserted: {inserted_courses}")
     print(f"University rows inserted: {inserted_unis}")
     print(f"Skipped malformed rows: {skipped}")
-    print(f"Final counts -> courses: {course_count}, universities: {uni_count}")
+    print(f"Cutoffs inserted: {cutoff_count}")
+    print(f"Final counts -> courses: {course_count}, universities: {uni_count}, cutoffs: {cutoff_total}")
 
 
 if __name__ == "__main__":

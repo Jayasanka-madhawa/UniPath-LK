@@ -103,10 +103,32 @@ def _parse_json(content: str) -> dict | None:
         return None
 
 
-def run_legacy_agent(question: str, max_steps: int = 4) -> AgentResult:
+def _format_history(history: list[dict[str, str]]) -> str:
+    lines = []
+    for item in history:
+        role = item.get("role", "")
+        content = item.get("content", "").strip()
+        if not content or role not in {"user", "assistant"}:
+            continue
+        label = "User" if role == "user" else "Assistant"
+        lines.append(f"{label}: {content}")
+    return "\n".join(lines)
+
+
+def run_legacy_agent(
+    question: str,
+    max_steps: int = 4,
+    history: list[dict[str, str]] | None = None,
+) -> AgentResult:
+    user_content = question
+    if history:
+        prior = _format_history(history)
+        if prior:
+            user_content = f"Conversation so far:\n{prior}\n\nCurrent message: {question}"
+
     messages = [
         {"role": "system", "content": AGENT_SYSTEM_PROMPT},
-        {"role": "user", "content": question},
+        {"role": "user", "content": user_content},
     ]
     tool_calls: list[ToolCall] = []
 

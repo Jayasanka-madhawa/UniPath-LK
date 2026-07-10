@@ -1,9 +1,57 @@
 import streamlit as st
 
-from src.rag.answer import answer_question, format_context
-from src.rag.retrieve import retrieve, retrieval_confidence
+from src.agent.agent import run_agent
 
 st.set_page_config(page_title="UniPath LK", page_icon="🎓", layout="wide")
+
+if "messages" not in st.session_state:
+    st.session_state.messages = []
+
+EXAMPLES = [
+    "My Z-score is 2.04 in Colombo. What courses can I get?",
+    "Compare Physical Science vs Computer Science",
+    "Can I apply if I registered at SLIATE?",
+    "How do I change my Uni-Code preference order?",
+]
+
+
+def _tool_calls_payload(result) -> list[dict]:
+    return [
+        {
+            "action": call.action,
+            "args": call.args,
+            "observation": call.observation[:1000],
+        }
+        for call in result.tool_calls
+    ]
+
+
+def _generate_reply() -> None:
+    with st.spinner("Thinking..."):
+        result = run_agent(messages=st.session_state.messages)
+    assistant_message: dict = {"role": "assistant", "content": result.answer}
+    if result.tool_calls:
+        assistant_message["tool_calls"] = _tool_calls_payload(result)
+    st.session_state.messages.append(assistant_message)
+
+
+with st.sidebar:
+    st.header("UniPath LK")
+    st.markdown(
+        "Ask about **courses**, **Z-scores**, **cutoffs**, and **UGC rules**. "
+        "I'll look up the right information for you."
+    )
+    if st.button("New conversation", use_container_width=True):
+        st.session_state.messages = []
+        st.rerun()
+
+    st.divider()
+    st.caption("Try asking:")
+    for i, example in enumerate(EXAMPLES):
+        if st.button(example, key=f"example_{i}", use_container_width=True):
+            st.session_state.messages.append({"role": "user", "content": example})
+            _generate_reply()
+            st.rerun()
 
 st.title("UniPath LK")
 st.caption("UGC Sri Lanka admission assistant — grounded in the 2025/26 Student Handbook")
@@ -13,44 +61,20 @@ st.warning(
     "Always verify with [UGC Sri Lanka](https://www.ugc.ac.lk/)."
 )
 
-question = st.text_input(
-    "Ask a question",
-    placeholder="e.g. What is the maximum number of A/L attempts allowed?",
-)
+if not st.session_state.messages:
+    st.info("Hi! Ask me about UGC admission, courses, Z-scores, or handbook rules.")
 
-mode = st.radio("Mode", ["Agent", "RAG"], horizontal=True)
+for message in st.session_state.messages:
+    with st.chat_message(message["role"]):
+        st.markdown(message["content"])
+        tool_calls = message.get("tool_calls")
+        if tool_calls:
+            with st.expander("How I found this"):
+                for call in tool_calls:
+                    st.code(f"{call['action']}({call['args']})")
+                    st.text(call.get("observation", ""))
 
-if question:
-    if mode == "Agent":
-        from src.agent.agent import run_agent
-        result = run_agent(question)
-        st.caption(f"Backend: {result.backend}")
-        st.write(result.answer)
-        with st.expander("Tool trace"):
-            for call in result.tool_calls:
-                st.code(f"{call.action}({call.args})")
-                st.text(call.observation[:1000])
-    else:
-
-        with st.spinner("Searching handbook..."):
-            hits = retrieve(question)
-            confident = retrieval_confidence(hits)
-            answer = answer_question(question)
-
-        st.subheader("Answer")
-        st.write(answer)
-
-        st.subheader("Retrieved sources")
-        if not confident:
-            st.info("Low retrieval confidence — answer may be refused.")
-
-        for i, hit in enumerate(hits, start=1):
-            m = hit["metadata"]
-            label = (
-                f"[{i}] {m.get('doc_type', 'content')} | "
-                f"Section: {m.get('section') or 'N/A'} | "
-                f"pp. {m['page_start']}-{m['page_end']} | "
-                f"RRF: {hit.get('rrf_score', 0):.4f}"
-            )
-            with st.expander(label):
-                st.text(hit["text"][:1200])
+if prompt := st.chat_input("Ask about courses, Z-scores, or UGC rules..."):
+    st.session_state.messages.append({"role": "user", "content": prompt})
+    _generate_reply()
+    st.rerun()

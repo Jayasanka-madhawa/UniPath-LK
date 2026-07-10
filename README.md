@@ -10,7 +10,7 @@ Hybrid agentic assistant for **UGC Sri Lanka university admission** — structur
 - **Eligibility & gap analysis** from SQLite cutoffs
 - **Policy Q&A** via hybrid RAG (Chroma + BM25 + RRF)
 - **Agent** with LangGraph ReAct (falls back to legacy Ollama JSON loop if LangGraph unavailable)
-- **Streamlit UI** with Agent and RAG modes
+- **Streamlit chat UI** — conversational agent (auto-routes tools + handbook search)
 - **Eval harness** for policy (RAG) and structured (SQLite) checks
 
 ## Architecture
@@ -21,11 +21,13 @@ User question
     ▼
 Streamlit / CLI
     │
-    ├── Agent mode ──► LangGraph ReAct (ChatOllama)
+    ├── Agent mode ──► LangGraph ReAct (ChatOllama) + conversation history
     │                      ├── SQLite tools: compare, find, eligible, gap
     │                      └── RAG tools: search_handbook, lookup_section
     │
-    └── RAG mode ───► retrieve (Chroma + BM25 + RRF) → answer (Ollama)
+    └── (RAG pipeline used internally via agent handbook tools)
+
+**Note:** The Streamlit app is a single chat interface — no mode selection. RAG is invoked automatically when policy questions need handbook search.
 ```
 
 **Design rule:** Z-scores and cutoffs come from SQLite only; policy prose from the handbook via RAG. The agent must not invent numbers.
@@ -57,7 +59,7 @@ python scripts/step5_index.py
 ## Run
 
 ```bash
-# Streamlit UI
+# Streamlit chat UI
 streamlit run app.py
 
 # Agent CLI

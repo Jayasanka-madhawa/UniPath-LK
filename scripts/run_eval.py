@@ -11,6 +11,7 @@ from src.db.queries import (
     get_eligible_courses,
     get_gap_analysis,
 )
+from src.config import LLM_PROVIDER
 from src.rag.answer import answer_question
 
 
@@ -22,8 +23,9 @@ def run_policy_eval() -> tuple[int, int]:
     golden = load_json("golden_qa_policy.json")
     passed = 0
     print("=== Policy (RAG) ===")
+    print(f"(LLM provider: {LLM_PROVIDER})")
     for item in golden:
-        answer = answer_question(item["question"])
+        answer = answer_question(item["question"], provider=LLM_PROVIDER)
         answer_lower = answer.lower()
         ok = all(term.lower() in answer_lower for term in item["must_contain"])
         status = "PASS" if ok else "FAIL"

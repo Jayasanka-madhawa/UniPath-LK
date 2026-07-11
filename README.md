@@ -21,7 +21,8 @@ User question
     ▼
 Streamlit / CLI
     │
-    ├── Agent mode ──► LangGraph ReAct (ChatOllama) + conversation history
+    ├── Agent ──► LangGraph ReAct + conversation history
+    │                 (Ollama, OpenAI, or Google Gemini — switchable)
     │                      ├── SQLite tools: compare, find, eligible, gap
     │                      └── RAG tools: search_handbook, lookup_section
     │
@@ -35,10 +36,40 @@ Streamlit / CLI
 ## Prerequisites
 
 - Python 3.12+
-- [Ollama](https://ollama.com/) running locally with:
-  - `ollama pull llama3.2`
-  - `ollama pull nomic-embed-text`
+- **Local (Ollama):** [Ollama](https://ollama.com/) with `llama3.2` and `nomic-embed-text`
+- **Google Gemini (optional):** API key — free tier has limits
+- **OpenAI (optional):** API key — pay-as-you-go, good for Sinhala
 - Chroma index built (see Setup)
+
+## LLM providers
+
+| Provider | Best for | Requires |
+|----------|----------|----------|
+| **ollama** (default) | Free, local, offline | `ollama serve` |
+| **openai** | Sinhala, strong tool routing | `OPENAI_API_KEY` |
+| **google** | Cloud alternative | `GOOGLE_API_KEY` |
+
+Configure via `.env` (copy from `.env.example`):
+
+```bash
+cp .env.example .env
+```
+
+```env
+LLM_PROVIDER=openai          # ollama | openai | google
+OPENAI_API_KEY=sk-...
+OPENAI_MODEL=gpt-4o-mini
+GOOGLE_API_KEY=...
+GOOGLE_MODEL=gemini-2.0-flash
+```
+
+In Streamlit, use the sidebar **AI model** dropdown to switch without restarting.
+
+CLI / eval use `LLM_PROVIDER` from `.env`:
+
+```bash
+LLM_PROVIDER=openai python scripts/step8_agent_ask.py "Compare Physical Science vs Computer Science"
+```
 
 ## Setup
 

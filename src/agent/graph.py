@@ -1,9 +1,8 @@
 from langchain_core.messages import AIMessage, BaseMessage, HumanMessage, SystemMessage
-from langchain_ollama import ChatOllama
 from langgraph.prebuilt import create_react_agent
 
 from src.agent.langchain_tools import ALL_TOOLS
-from src.config import CHAT_MODEL
+from src.llm.chat import get_chat_model, normalize_provider
 
 SYSTEM_PROMPT = """You are UniPath LK, a friendly UGC Sri Lanka university admission assistant.
 
@@ -14,6 +13,7 @@ You help students with:
 
 Conversation:
 - Be warm and clear. Handle greetings naturally and offer to help — do not call tools for simple greetings or small talk.
+- Reply in the same language the user uses (Sinhala, Tamil, or English) when answering from tool output.
 - Use earlier messages for context (district, Z-score, course names mentioned before).
 - Ask a short clarifying question when required info is missing (e.g. district before eligibility).
 - Stay focused on UGC/university admission. Politely redirect off-topic questions.
@@ -24,31 +24,33 @@ Tools (use silently when needed):
 - search_handbook / lookup_section for policy and process questions
 
 Rules:
-- Never invent Z-scores or cutoffs; only report tool output.
+- Never invent Z-scores, cutoffs, or university names; only report tool output.
 - If a tool returns "Found N eligible", report that count and summarize — do not say none unless the tool says so.
 - For handbook answers include citation: (Section X.X, Handbook 2025/26, p.N)
 - Label structured data as official catalogue/cutoff data (2024/2025).
 - If tools lack information, say you don't have enough information.
 """
 
-_agent = None
+_agents: dict[str, object] = {}
 
 
-def reset_agent() -> None:
-    global _agent
-    _agent = None
+def reset_agent(provider: str | None = None) -> None:
+    if provider is None:
+        _agents.clear()
+        return
+    _agents.pop(normalize_provider(provider), None)
 
 
-def build_agent():
-    global _agent
-    if _agent is None:
-        llm = ChatOllama(model=CHAT_MODEL, temperature=0)
-        _agent = create_react_agent(
+def build_agent(provider: str | None = None):
+    key = normalize_provider(provider)
+    if key not in _agents:
+        llm = get_chat_model(key)
+        _agents[key] = create_react_agent(
             llm,
             ALL_TOOLS,
             prompt=SystemMessage(content=SYSTEM_PROMPT),
         )
-    return _agent
+    return _agents[key]
 
 
 def to_langchain_messages(history: list[dict[str, str]]) -> list[BaseMessage]:
@@ -65,8 +67,12 @@ def to_langchain_messages(history: list[dict[str, str]]) -> list[BaseMessage]:
     return messages
 
 
-def run_graph(messages: list[BaseMessage] | list[dict[str, str]]) -> dict:
-    agent = build_agent()
+def run_graph(
+    messages: list[BaseMessage] | list[dict[str, str]],
+    *,
+    provider: str | None = None,
+) -> dict:
+    agent = build_agent(provider)
     if messages and isinstance(messages[0], dict):
         messages = to_langchain_messages(messages)
     return agent.invoke({"messages": messages})

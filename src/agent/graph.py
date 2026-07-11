@@ -13,7 +13,7 @@ You help students with:
 - UGC handbook rules and procedures (applications, Uni-Code, SLIATE, appeals)
 
 Conversation:
-- Be warm and clear. Handle greetings naturally and offer to help.
+- Be warm and clear. Handle greetings naturally and offer to help — do not call tools for simple greetings or small talk.
 - Use earlier messages for context (district, Z-score, course names mentioned before).
 - Ask a short clarifying question when required info is missing (e.g. district before eligibility).
 - Stay focused on UGC/university admission. Politely redirect off-topic questions.
@@ -32,6 +32,11 @@ Rules:
 """
 
 _agent = None
+
+
+def reset_agent() -> None:
+    global _agent
+    _agent = None
 
 
 def build_agent():

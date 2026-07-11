@@ -32,6 +32,22 @@ def _last_user_message(messages: list[dict[str, str]]) -> str:
     return ""
 
 
+def _error_result(messages: list[dict[str, str]], error: str) -> AgentResult:
+    return AgentResult(
+        question=_last_user_message(messages),
+        answer=(
+            "Sorry, I ran into a problem answering that.\n\n"
+            f"**Details:** {error}\n\n"
+            "Try:\n"
+            "- Confirm Ollama is running (`ollama list`)\n"
+            "- Restart the app: stop Streamlit and run `streamlit run app.py` again\n"
+            "- Run from the project folder with `export PYTHONPATH=.`"
+        ),
+        tool_calls=[],
+        backend="error",
+    )
+
+
 def _run_langgraph_agent(messages: list[dict[str, str]]) -> AgentResult:
     from src.agent.graph import run_graph, to_langchain_messages
 
@@ -53,6 +69,7 @@ def run_agent(
     *,
     messages: list[dict[str, str]] | None = None,
     max_steps: int = 4,
+    use_legacy: bool = False,
 ) -> AgentResult:
     """Run agent via LangGraph with optional conversation history."""
     if messages is None:
@@ -60,20 +77,22 @@ def run_agent(
     elif question is not None:
         messages = [*messages, {"role": "user", "content": question}]
 
+    if use_legacy:
+        return run_legacy_agent(
+            _last_user_message(messages),
+            max_steps=max_steps,
+            history=messages[:-1],
+        )
+
     try:
         return _run_langgraph_agent(messages)
-    except ImportError:
-        return run_legacy_agent(
-            _last_user_message(messages),
-            max_steps=max_steps,
-            history=messages[:-1],
+    except ImportError as exc:
+        return _error_result(
+            messages,
+            f"LangGraph dependencies missing ({exc}). Run: pip install -r requirements.txt",
         )
-    except Exception:
-        return run_legacy_agent(
-            _last_user_message(messages),
-            max_steps=max_steps,
-            history=messages[:-1],
-        )
+    except Exception as exc:
+        return _error_result(messages, str(exc))
 
 
 __all__ = ["AgentResult", "ToolCall", "run_agent"]

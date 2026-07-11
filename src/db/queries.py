@@ -1,7 +1,6 @@
 import sqlite3
-from pathlib import Path
 
-DB_PATH = Path("data/structured/unipath.db")
+from src.config import DB_PATH
 
 
 def get_connection() -> sqlite3.Connection:

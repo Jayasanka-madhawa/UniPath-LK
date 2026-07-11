@@ -1,8 +1,13 @@
+from pathlib import Path
+
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+
 EMBED_MODEL = "nomic-embed-text"
 CHAT_MODEL = "llama3.2"
 COLLECTION_NAME = "ugc_handbook_en_2526"
-CHROMA_PATH = "data/chroma"
-CHUNKS_PATH = "data/processed/chunks_2025_26_en.jsonl"
+CHROMA_PATH = str(PROJECT_ROOT / "data/chroma")
+CHUNKS_PATH = str(PROJECT_ROOT / "data/processed/chunks_2025_26_en.jsonl")
+DB_PATH = PROJECT_ROOT / "data/structured/unipath.db"
 
 # Retrieval
 RETRIEVE_TOP_K = 5

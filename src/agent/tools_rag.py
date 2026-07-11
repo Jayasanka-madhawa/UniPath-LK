@@ -21,7 +21,13 @@ def _load_chunks() -> list[dict]:
 
 
 def search_handbook_tool(query: str) -> str:
-    hits = retrieve(query, top_k=RETRIEVE_TOP_K)
+    query = (query or "").strip()
+    if not query:
+        return "No search query provided."
+    try:
+        hits = retrieve(query, top_k=RETRIEVE_TOP_K)
+    except Exception as exc:
+        return f"Handbook search failed: {exc}"
     if not hits:
         return "No matching handbook passages found."
 

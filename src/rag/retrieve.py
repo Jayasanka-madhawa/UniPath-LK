@@ -1,3 +1,5 @@
+import threading
+
 import chromadb
 import ollama
 
@@ -12,6 +14,8 @@ from src.config import (
     RRF_K,
 )
 from src.rag.bm25_index import search_bm25
+
+_embed_lock = threading.Lock()
 
 
 def _chunk_to_hit(chunk_id: str, text: str, metadata: dict, **extra) -> dict:
@@ -29,18 +33,32 @@ def is_retrievable(hit: dict) -> bool:
 
 
 def search_vector(query: str, top_k: int = RETRIEVE_CANDIDATES) -> list[dict]:
-    query_vector = ollama.embeddings(
-        model=EMBED_MODEL,
-        prompt=query,
-    )["embedding"]
+    query = (query or "").strip()
+    if not query:
+        return []
+
+    with _embed_lock:
+        query_vector = ollama.embeddings(
+            model=EMBED_MODEL,
+            prompt=query,
+        )["embedding"]
+
+    if not query_vector:
+        return []
 
     db = chromadb.PersistentClient(path=CHROMA_PATH)
     collection = db.get_collection(COLLECTION_NAME)
 
-    results = collection.query(
-        query_embeddings=[query_vector],
-        n_results=top_k,
-    )
+    try:
+        results = collection.query(
+            query_embeddings=[query_vector],
+            n_results=top_k,
+        )
+    except (IndexError, ValueError):
+        return []
+
+    if not results.get("ids") or not results["ids"][0]:
+        return []
 
     hits = []
     for i in range(len(results["ids"][0])):

@@ -1,6 +1,15 @@
+import os
+from pathlib import Path
+
 import streamlit as st
 
+# Ensure data paths resolve regardless of how Streamlit was launched.
+os.chdir(Path(__file__).resolve().parent)
+
 from src.agent.agent import run_agent
+from src.agent.graph import reset_agent
+
+reset_agent()
 
 st.set_page_config(page_title="UniPath LK", page_icon="🎓", layout="wide")
 

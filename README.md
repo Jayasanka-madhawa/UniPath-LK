@@ -4,6 +4,11 @@ Hybrid agentic assistant for **UGC Sri Lanka university admission** — structur
 
 > **Disclaimer:** Educational portfolio project only. Not official UGC advice. Always verify with [UGC Sri Lanka](https://www.ugc.ac.lk/).
 
+**Documentation:**
+- [Project guide](documentation/PROJECT_GUIDE.md) — architecture, workflows, diagrams
+- [LLM & agent](documentation/LLM_AND_AGENT.md) — LangGraph, tool decisions, when chunk search runs
+- [Data & chunking](documentation/DATA_AND_CHUNKING.md) — sources, chunking strategy, RAG tech
+
 ## Features
 
 - **Structured data:** 101 courses, 2025 cutoff rows (21 course codes, 25 districts, 2024/2025 academic year)
@@ -28,7 +33,7 @@ Streamlit / CLI
     │
     └── (RAG pipeline used internally via agent handbook tools)
 
-**Note:** The Streamlit app is a single chat interface — no mode selection. RAG is invoked automatically when policy questions need handbook search.
+**Note:** The Streamlit app is a single chat interface — no mode selection. The LLM decides when to call tools; handbook chunk search runs only when the agent calls `search_handbook` or `lookup_section`. See [LLM & agent](documentation/LLM_AND_AGENT.md).
 ```
 
 **Design rule:** Z-scores and cutoffs come from SQLite only; policy prose from the handbook via RAG. The agent must not invent numbers.
@@ -84,7 +89,7 @@ export PYTHONPATH=.
 python scripts/build_db.py
 
 # Build vector index (if not already present)
-python scripts/step5_index.py
+python scripts/step5_build_index.py
 ```
 
 ## Run
@@ -106,6 +111,10 @@ python scripts/run_eval.py
 ## Project layout
 
 ```
+├── documentation/
+│   ├── PROJECT_GUIDE.md        # Architecture, workflows, diagrams
+│   ├── LLM_AND_AGENT.md        # LLM, LangGraph, tool routing
+│   └── DATA_AND_CHUNKING.md    # Data sources, chunking, RAG
 ├── app.py                      # Streamlit UI
 ├── data/structured/
 │   ├── courses.json            # Course catalogue
